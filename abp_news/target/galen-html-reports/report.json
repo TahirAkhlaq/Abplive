@@ -1,0 +1,17 @@
+{
+  "tests" : [ {
+    "name" : "WelcomePageTest#welcomePage_shouldLookGood_onDesktopDevice",
+    "startedAt" : 1535704649429,
+    "endedAt" : 1535704658607,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 1,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 1
+    },
+    "testId" : "1-welcomepagetest-welcomepage-shouldlookgood-ondesktopdevice",
+    "duration" : 9178,
+    "failed" : false
+  } ]
+}
