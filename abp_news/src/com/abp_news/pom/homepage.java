@@ -2,8 +2,14 @@ package com.abp_news.pom;
 
 import static org.testng.Assert.assertEquals;
 
+import java.util.ArrayList;
+import java.util.Set;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.remote.server.handler.GetAllWindowHandles;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
@@ -13,6 +19,7 @@ public class homepage extends menupage {
 
 	@FindBy(how = How.XPATH, using = "//a[@class='navbar-brand sprite logosprite']")
 	WebElement logo;
+	// Language Links
 	@FindBy(how = How.ID, using = "closeNotification")
 	WebElement closeNotification;
 	@FindBy(how = How.XPATH, using = "//a[contains(text(),'हिन्दी')]")
@@ -35,12 +42,18 @@ public class homepage extends menupage {
 	WebElement gujratiBtn;
 	@FindBy(how = How.XPATH, using = "//a[@title='ગુજરાત']")
 	WebElement verifyGujrat;
+	@FindBy(how = How.XPATH, using = "//div[@class='col-sm-6 launage_new hidden-sm-down']//a[@class='tabTrackingDesk'][contains(text(),'English')]" )
+	WebElement engBtn;
+	// Social Links
 	@FindBy(how = How.XPATH, using = "//div[@class='header_social hidden-sm-down']//a[@class='sprite fb']")
 	WebElement FbBtn;
+	@FindBy(how = How.XPATH, using = "//a[@class='sprite gplus']")
+	WebElement youTubeBtn;
 	@FindBy(how = How.XPATH, using = "//div[@class='header_social hidden-sm-down']//a[@class='sprite twitter']")
 	WebElement twitterBtn;
 	@FindBy(how = How.XPATH, using = "//div[@class='header_social hidden-sm-down']//a[@class='sprite yt']")
 	WebElement rssBtn;
+	
 	@FindBy(how = How.ID, using = "email")
 	WebElement emaliField;
 	@FindBy(how = How.XPATH, using = "//input[@value='Submit']")
@@ -92,36 +105,31 @@ public class homepage extends menupage {
 	WebElement verifyLiveTv;
 
 	public void homePageLaguageBtnVerification() {
-		
 		logo.isDisplayed();
 		Reporter.log("Logo is displayed", true);
 		hindiBtn.click();
 		String actualtext = verifyHindi.getText();
-		assertEquals(actualtext,"भारत");
-		Reporter.log("Hindi link verified---->"+actualtext, true);
+		assertEquals(actualtext, "भारत");
+		Reporter.log("Hindi link verified---->" + actualtext, true);
 		banglaBtn.click();
 		String actualBanglaTxt = verifyBangla.getText();
 		assertEquals(actualBanglaTxt, "শিরোনাম");
-		Reporter.log("Bangla Link Verified------>"+actualBanglaTxt, true);
+		Reporter.log("Bangla Link Verified------>" + actualBanglaTxt, true);
 		marathiBtn.click();
 		closeNotification.click();
 		String actualMarathiTxt = verifyMarati.getText();
 		assertEquals(actualMarathiTxt, "लाईव्ह अपडेट");
-		Reporter.log("Marathi Link Verified------>"+actualMarathiTxt, true);
+		Reporter.log("Marathi Link Verified------>" + actualMarathiTxt, true);
 		panjabiBtn.click();
 		String actualpunjabiTxt = verifyPunjabi.getText();
 		assertEquals(actualpunjabiTxt, "ਭਾਰਤ");
-		Reporter.log("punjabi Link Verified------>"+actualpunjabiTxt, true);
+		Reporter.log("punjabi Link Verified------>" + actualpunjabiTxt, true);
 		gujratiBtn.click();
 		String actualGujratTxt = verifyGujrat.getText();
 		assertEquals(actualGujratTxt, "ગુજરાત");
-		Reporter.log("Gujrati Link Verified------>"+actualGujratTxt, true);
-		
-		
-		
-		
-		
-
+		Reporter.log("Gujrati Link Verified------>" + actualGujratTxt, true);
+		engBtn.click();
+		Reporter.log("<========================All Language Button Verified Succefully===============================>",true);
 	}
 
 	public homepage(WebDriver driver) {
@@ -129,7 +137,30 @@ public class homepage extends menupage {
 		PageFactory.initElements(driver, this);
 	}
 
-	public void verifyLinkActive(String linkUrl) {
-
+	public void verifySocialLinks(WebDriver driver) throws InterruptedException {
+		String parent = driver.getWindowHandle();
+		Reporter.log("parent Window is---------->" + parent);
+		FbBtn.click();
+		twitterBtn.click();
+		youTubeBtn.click();
+		rssBtn.click();
+		Reporter.log("<=========== Clicked on RSS Button============>",true);
+		Set<String> allwindows = driver.getWindowHandles();
+		int count = allwindows.size();
+		Reporter.log("total window  " + count, true);
+		for (String child : allwindows) {
+			if (!parent.equalsIgnoreCase(child)) {
+				driver.switchTo().window(child);
+				Reporter.log("***************Child Window Title is  " + driver.getTitle(),true);
+				Thread.sleep(2000);
+				driver.close();
+				
+			}
+		}
+		driver.switchTo().window(parent);
+		Reporter.log("***********Parent Window Title is "+driver.getTitle(),true);
+		Reporter.log("<========================All Social Sites links verified Successfully===============================>",true);	
+		
 	}
+
 }

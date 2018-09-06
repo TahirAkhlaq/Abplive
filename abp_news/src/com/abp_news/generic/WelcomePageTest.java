@@ -2,7 +2,6 @@ package com.abp_news.generic;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
 import com.galenframework.testng.GalenTestNgTestBase;

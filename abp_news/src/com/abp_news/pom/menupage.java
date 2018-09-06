@@ -59,9 +59,10 @@ abstract class menupage {
 	
 		public void linkVerification(WebDriver driver) {
 		List<WebElement> links = driver.findElements(By.tagName("a"));
-		links.addAll(driver.findElements(By.tagName("img")));
+	//	links.addAll(driver.findElements(By.tagName("img")));
 
-		System.out.println("Total links are " + links.size());
+		
+		Reporter.log("Total links are " + links.size(),true);
 
 		for (int i = 0; i < links.size(); i++) {
 			WebElement ele = links.get(i);
@@ -91,6 +92,7 @@ abstract class menupage {
 
 		}
 
+		Reporter.log("<=================All Links Verified======================>",true);
 	}
 
 }
