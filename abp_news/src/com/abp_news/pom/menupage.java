@@ -4,6 +4,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.List;
 
+import org.apache.commons.lang3.RandomStringUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -95,4 +96,12 @@ abstract class menupage {
 		Reporter.log("<=================All Links Verified======================>",true);
 	}
 
+
+public  String randomName() {
+	int length = 10;
+	boolean useLetters = true;
+	boolean useNumbers = false;
+	String generatedString = RandomStringUtils.random(length, useLetters, useNumbers);
+	return generatedString;
+}
 }
