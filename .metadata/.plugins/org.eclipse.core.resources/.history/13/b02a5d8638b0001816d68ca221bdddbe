@@ -1,0 +1,98 @@
+package com.abp_news.scripts;
+
+import java.io.IOException;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.openqa.selenium.By;
+
+import org.openqa.selenium.WebElement;
+import org.testng.annotations.Test;
+
+import com.abp_news.generic.BaseLib;
+import com.abp_news.pom.homepage;
+
+public class hometest extends BaseLib {
+
+	// WebDriver driver;
+	@Test
+	public void verifyLinks() {
+
+		homepage hp = new homepage(driver);
+		hp.verifyLinks();
+		wLib.implicitWaitForSeconds(driver, 10);
+		// 1.get the list of all the links and images
+		List<WebElement> allLinksList = driver.findElements(By.tagName("a"));
+		allLinksList.addAll(driver.findElements(By.tagName("img")));
+
+		System.out.println("size of full links and images------>" + allLinksList.size());
+
+		List<WebElement> activelinks = new ArrayList<WebElement>();
+
+		// 2.iterate linkslist : exclude all the links/image - doesnt have any herf
+		// attribute
+		for (int i = 0; i < allLinksList.size(); i++) {
+			System.out.println(allLinksList.get(i).getAttribute("href"));
+			if (allLinksList.get(i).getAttribute("href") != null && allLinksList.get(i).getAttribute("href").contains("javascript")) {
+				activelinks.add(allLinksList.get(i));
+				
+
+			}
+		}
+		// get the size of active links list:
+		System.out.println("size of active links and images-------->" + activelinks.size());
+		
+		// 3.check the herf url, with httpconnection api
+		for (int j = 0; j < activelinks.size(); j++) {
+			
+			try {
+				HttpURLConnection connection = (HttpURLConnection)activelinks.ope
+						new URL(activelinks.get(j).getAttribute("herf")).openConnection();
+				connection.connect();
+				String responce = connection.getResponseMessage();
+				connection.disconnect();
+				System.out.println(activelinks.get(j).getAttribute("herf")+"------>"+responce);
+			} catch (Exception e) {
+				
+				e.printStackTrace();
+			} 
+			
+			
+
+		}
+	}
+	@Test(enabled=false)
+	public void verification() {
+		List<WebElement> links=driver.findElements(By.tagName("a"));
+		links.addAll(driver.findElements(By.tagName("img")));
+		
+		System.out.println("Total links are "+links.size());
+		homepage hp = new homepage(driver);
+		hp.verifyLinks();
+		
+		List<WebElement> activelinks = new ArrayList<WebElement>();
+		for(int i=0;i<links.size();i++)
+		{
+			
+			if (links.get(i).getAttribute("href") != null && links.get(i).getAttribute("href").contains("javascript")) {
+				activelinks.add(links.get(i));
+				
+
+			}
+			
+			WebElement ele= links.get(i);
+			
+			String url=ele.getAttribute("href");
+			hp.verifyLinkActive(url);
+			
+		}
+		System.out.println("size of active links and images-------->" + activelinks.size());
+		
+	}
+	
+	
+	}
+	

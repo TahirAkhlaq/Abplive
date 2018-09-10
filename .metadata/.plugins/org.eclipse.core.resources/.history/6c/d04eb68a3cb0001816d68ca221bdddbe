@@ -1,0 +1,5 @@
+package com.abp_news.pom;
+
+abstract class menupage {
+
+}

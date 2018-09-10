@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;GalenDifferentBrowserSize.gspec&apos; to &apos;galen_spec_gspec&apos;&#x0A;- Original project: &apos;imademethink_galen_automation-master&apos;&#x0A;- Destination element: &apos;galen_spec_gspec&apos;&#x0A;- Original element: &apos;GalenDifferentBrowserSize.gspec&apos;" description="Copy file" element1="src/test/resources/galen_spec_gspec/GalenDifferentBrowserSize.gspec" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1535699507341" target="/imademethink_galen_automation-master/src/test/resources/galen_spec_gspec" units="0" version="1.0"/>
+</session>

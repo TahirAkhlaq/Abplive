@@ -1,0 +1,27 @@
+package com.abp_news.scripts;
+
+import java.io.IOException;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.openqa.selenium.By;
+
+import org.openqa.selenium.WebElement;
+import org.testng.Reporter;
+import org.testng.annotations.Test;
+
+import com.abp_news.generic.BaseLib;
+import com.abp_news.pom.homepage;
+
+public class hometest extends BaseLib {
+
+	@Test
+	public void linkVerification() {
+		
+	}
+	
+
+}

@@ -1,0 +1,96 @@
+package com.abp_news.pom;
+
+import java.net.HttpURLConnection;
+import java.net.URL;
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
+import org.testng.Reporter;
+
+abstract class menupage {
+	
+	@FindBy(how = How.XPATH, using="//body/div[@id='sidebar']/div[@class='container no_margin m_100 clearfix menu_top_resize']/ul[@class='navbar-items new_wid_top']/li[1]")
+	WebElement indiaBtn;
+	
+	@FindBy(how = How.XPATH, using="//body/div[@id='sidebar']/div[@class='container no_margin m_100 clearfix menu_top_resize']/ul[@class='navbar-items new_wid_top']/li[2]")
+	WebElement worldBtn;
+	
+	@FindBy(how = How.XPATH, using="//body/div[@id='sidebar']/div[@class='container no_margin m_100 clearfix menu_top_resize']/ul[@class='navbar-items new_wid_top']/li[3]")
+	WebElement tvBtn;
+	
+	@FindBy(how = How.XPATH, using="//body/div[@id='sidebar']/div[@class='container no_margin m_100 clearfix menu_top_resize']/ul[@class='navbar-items new_wid_top']/li[4]")
+	WebElement photoBtn;
+	
+	@FindBy(how = How.XPATH, using="//body/div[@id='sidebar']/div[@class='container no_margin m_100 clearfix menu_top_resize']/ul[@class='navbar-items new_wid_top']/li[5]")
+	WebElement EntertainmentBtn;
+	
+	@FindBy(how = How.XPATH, using="//a[contains(text(),'Jobs & Education')]")
+	WebElement jobBtn;
+	
+	@FindBy(how = How.XPATH, using="//a[contains(text(),'TRENDING NEWS')]")
+	WebElement trendingnewsBtn;
+	
+	@FindBy(how = How.XPATH, using="//a[@title='…']")
+	WebElement moreMenuBtn;
+	
+	@FindBy(how = How.XPATH, using="//a[contains(text(),'CRICKET')]")
+	WebElement cricketMenuBtn;
+	
+	@FindBy(how = How.XPATH, using= "//a[@href='/en']")
+	WebElement wahCricketlogo;
+	
+	@FindBy(how = How.XPATH, using= "//a[contains(text(),'Blog')]")
+	WebElement blogLink;
+	
+	@FindBy(how = How.XPATH, using= "//li//h1[1]")
+	WebElement validateBlog;
+	
+	@FindBy(how = How.XPATH, using="//div[@class='row mar0 marginSides ListNews']//div[1]//div[2]//div[1]//a[1]//img[1]")
+	WebElement openBlog;
+	
+	@FindBy(how = How.XPATH, using="//i[@class='searchbox-icon sprite']")
+	WebElement srchBtn;
+	
+	
+	
+		public void linkVerification(WebDriver driver) {
+		List<WebElement> links = driver.findElements(By.tagName("a"));
+		links.addAll(driver.findElements(By.tagName("img")));
+
+		System.out.println("Total links are " + links.size());
+
+		for (int i = 0; i < links.size(); i++) {
+			WebElement ele = links.get(i);
+			String linkUrl = ele.getAttribute("href");
+			try {
+				URL url = new URL(linkUrl);
+
+				HttpURLConnection httpURLConnect = (HttpURLConnection) url.openConnection();
+
+				httpURLConnect.setConnectTimeout(3000);
+
+				httpURLConnect.connect();
+
+				if (httpURLConnect.getResponseCode() == 200) {
+					System.out.println(linkUrl + " - " + httpURLConnect.getResponseMessage());
+					Reporter.log(linkUrl + " - " + httpURLConnect.getResponseMessage());
+				}
+				if (httpURLConnect.getResponseCode() == HttpURLConnection.HTTP_NOT_FOUND) {
+					System.out.println(linkUrl + " - " + httpURLConnect.getResponseMessage() + " - "
+							+ HttpURLConnection.HTTP_NOT_FOUND);
+					Reporter.log(linkUrl + " - " + httpURLConnect.getResponseMessage() + " - "
+							+ HttpURLConnection.HTTP_NOT_FOUND);
+				}
+			} catch (Exception e) {
+
+			}
+
+		}
+
+	}
+
+}

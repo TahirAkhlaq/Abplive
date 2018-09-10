@@ -1,0 +1,18 @@
+package com.abp_news.generic;
+
+
+	public class WelcomePageTest extends GalenTestNgTestBase {
+
+	    @Override
+	    public WebDriver createDriver(Object[] args) {
+	        return new FirefoxDriver();
+	    }
+
+	    @Test
+	    public void welcomePage_shouldLookGood_onDesktopDevice() {
+	        load("http://example.com", 1024, 768);
+	        checkLayout("/specs/welcomePage.spec", asList("mobile"));
+	    }
+
+	}
+

@@ -49,7 +49,7 @@ public class MyTestNGListener implements ITestListener {
 		EventFiringWebDriver efw= new EventFiringWebDriver(obj.driver);
 		File srcFile=efw.getScreenshotAs(OutputType.FILE);
 	//	File srcFile=((TakesScreenshot)obj.driver).getScreenshotAs(OutputType.FILE);
-		File destFile=new File("/home/tahir/eclipse-workspace/Collegedekho_Java/screenshots"+fileName+dateFormat.format(date)+".png");
+		File destFile=new File("./screenshots"+fileName+dateFormat.format(date)+".png");
 		
 	
 	try{

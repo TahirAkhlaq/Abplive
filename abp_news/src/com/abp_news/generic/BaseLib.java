@@ -82,7 +82,7 @@ public class BaseLib {
 
 		driver.quit();
 		Reporter.log("browsers closed", true);
-		// EmailLib.sendEmail();
+		
 
 	}
 

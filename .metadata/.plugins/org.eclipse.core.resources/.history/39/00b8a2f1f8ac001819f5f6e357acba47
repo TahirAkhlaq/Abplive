@@ -1,0 +1,24 @@
+package com.abp_news.generic;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Test;
+
+import com.galenframework.testng.GalenTestNgTestBase;
+
+public class WelcomePageTest extends GalenTestNgTestBase {
+
+	    @Override
+	    public WebDriver createDriver(Object[] args) {
+	        return new ChromeDriver();
+	    }
+
+	    @Test
+	    public void welcomePage_shouldLookGood_onDesktopDevice() {
+	        load("http://google.com", 1024, 768);
+	        checkLayout("/specs/welcomePage.spec", asList("mobile"));
+	    }
+
+	}
+

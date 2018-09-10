@@ -14,33 +14,18 @@
       <![CDATA[Paga Title is------.Latest News, News Today, Breaking News, Live News Updates - ABP Live]]>
     </line>
     <line>
-      <![CDATA[getting Text ====> VIDEO]]>
-    </line>
-    <line>
-      <![CDATA[Successfully redirected to ====> VIDEOS]]>
-    </line>
-    <line>
-      <![CDATA[Successfully redirected to ====> ]]>
-    </line>
-    <line>
-      <![CDATA[Successfully redirected to ====> NEWS]]>
-    </line>
-    <line>
-      <![CDATA[Detailed News Open Successfully]]>
-    </line>
-    <line>
-      <![CDATA[Successfully redirected to ====> Live Tv]]>
+      <![CDATA[=======Font Size=========>28px]]>
     </line>
     <line>
       <![CDATA[browsers closed]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="29560" started-at="2018-09-07T10:26:22Z" finished-at="2018-09-07T10:26:51Z">
+  <suite name="Default suite" duration-ms="6488" started-at="2018-09-10T11:53:38Z" finished-at="2018-09-10T11:53:44Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="29560" started-at="2018-09-07T10:26:22Z" finished-at="2018-09-07T10:26:51Z">
+    <test name="Default test" duration-ms="6488" started-at="2018-09-10T11:53:38Z" finished-at="2018-09-10T11:53:44Z">
       <class name="com.abp_news.scripts.hometest">
-        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.abp_news.scripts.hometest@17d0685f]" name="preCondition" is-config="true" duration-ms="6109" started-at="2018-09-07T10:26:22Z" finished-at="2018-09-07T10:26:28Z">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.abp_news.scripts.hometest@17d0685f]" name="preCondition" is-config="true" duration-ms="6036" started-at="2018-09-10T11:53:38Z" finished-at="2018-09-10T11:53:44Z">
           <reporter-output>
             <line>
               <![CDATA[WEB Browser launched]]>
@@ -56,29 +41,14 @@
             </line>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="linkVerification()[pri:0, instance:com.abp_news.scripts.hometest@17d0685f]" name="linkVerification" duration-ms="23330" started-at="2018-09-07T10:26:28Z" finished-at="2018-09-07T10:26:51Z">
+        <test-method status="PASS" signature="homepageMiddleSection()[pri:0, instance:com.abp_news.scripts.hometest@17d0685f]" name="homepageMiddleSection" duration-ms="338" started-at="2018-09-10T11:53:44Z" finished-at="2018-09-10T11:53:44Z">
           <reporter-output>
             <line>
-              <![CDATA[getting Text ====> VIDEO]]>
-            </line>
-            <line>
-              <![CDATA[Successfully redirected to ====> VIDEOS]]>
-            </line>
-            <line>
-              <![CDATA[Successfully redirected to ====> ]]>
-            </line>
-            <line>
-              <![CDATA[Successfully redirected to ====> NEWS]]>
-            </line>
-            <line>
-              <![CDATA[Detailed News Open Successfully]]>
-            </line>
-            <line>
-              <![CDATA[Successfully redirected to ====> Live Tv]]>
+              <![CDATA[=======Font Size=========>28px]]>
             </line>
           </reporter-output>
-        </test-method> <!-- linkVerification -->
-        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.abp_news.scripts.hometest@17d0685f]" name="postCondition" is-config="true" duration-ms="93" started-at="2018-09-07T10:26:51Z" finished-at="2018-09-07T10:26:51Z">
+        </test-method> <!-- homepageMiddleSection -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.abp_news.scripts.hometest@17d0685f]" name="postCondition" is-config="true" duration-ms="90" started-at="2018-09-10T11:53:44Z" finished-at="2018-09-10T11:53:44Z">
           <reporter-output>
             <line>
               <![CDATA[browsers closed]]>

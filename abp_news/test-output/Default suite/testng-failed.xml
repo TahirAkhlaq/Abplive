@@ -5,9 +5,9 @@
     <classes>
       <class name="com.abp_news.scripts.hometest">
         <methods>
-          <include name="linkVerification"/>
           <include name="preCondition"/>
           <include name="postCondition"/>
+          <include name="searchVerify"/>
         </methods>
       </class> <!-- com.abp_news.scripts.hometest -->
     </classes>

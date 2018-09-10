@@ -1,0 +1,38 @@
+package com.abp_news.scripts;
+
+
+import org.testng.annotations.Test;
+
+import com.abp_news.generic.BaseLib;
+import com.abp_news.pom.homepage;
+
+public class hometest extends BaseLib {
+
+	homepage hp = new homepage(driver);
+	@Test
+	public void linkVerification() throws InterruptedException {
+		
+		wLib.implicitWaitForSeconds(driver, 10);
+//		hp.linkVerification(driver);
+//	
+//	
+//		
+		hp.verifySocialLinks(driver);
+		hp.VerifyBlogHomepage(driver);
+		hp.trandingVideo();
+		
+//		
+//		Thread.sleep(2000);
+//		hp.newslatterverify();
+//		Thread.sleep(2000);
+//		hp.verifyHomepageSection(driver);
+	}
+	@Test
+	public void socialSiteLinkDirectionVerification() {
+		
+		hp.homePageLaguageBtnVerification();
+		wLib.implicitWaitForSeconds(driver, 10);
+	}
+	
+
+}
