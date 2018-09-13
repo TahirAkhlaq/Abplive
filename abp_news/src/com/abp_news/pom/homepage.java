@@ -6,156 +6,163 @@ import java.util.List;
 import java.util.Set;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Reporter;
 import org.testng.asserts.SoftAssert;
 
 public class homepage extends menupage {
 
 	@FindBy(how = How.XPATH, using = "//a[@class='navbar-brand sprite logosprite']")
-	WebElement logo;
+	private WebElement logo;
 	// Language button Links
 	@FindBy(how = How.ID, using = "closeNotification")
-	WebElement closeNotification;
+	private WebElement closeNotification;
 	@FindBy(how = How.XPATH, using = "//a[contains(text(),'हिन्दी')]")
-	WebElement hindiBtn;
+	private WebElement hindiBtn;
 	@FindBy(how = How.XPATH, using = "//span[text()='भारत']")
-	WebElement verifyHindi;
+	private WebElement verifyHindi;
 	@FindBy(how = How.XPATH, using = "//a[contains(text(),'বাংলা')]")
-	WebElement banglaBtn;
+	private WebElement banglaBtn;
 	@FindBy(how = How.XPATH, using = "//a[@class='fatafat-title hidden-sm-down']")
-	WebElement verifyBangla;
+	private WebElement verifyBangla;
 	@FindBy(how = How.XPATH, using = "//div[@class='col-sm-6 launage_new hidden-sm-down']//a[@class='tabTrackingDesk'][contains(text(),'Marathi')]")
-	WebElement marathiBtn;
+	private WebElement marathiBtn;
 	@FindBy(how = How.XPATH, using = "//div[@class='_lu hidden-md-down']//span[@class='_fc'][contains(text(),'लाईव्ह अपडेट')]")
-	WebElement verifyMarati;
+	private WebElement verifyMarati;
 	@FindBy(how = How.XPATH, using = "//div[@class='col-sm-6 launage_new hidden-sm-down']//a[@class='tabTrackingDesk'][contains(text(),'Punjabi')]")
-	WebElement panjabiBtn;
+	private WebElement panjabiBtn;
 	@FindBy(how = How.XPATH, using = "//span[text()='ਭਾਰਤ']")
-	WebElement verifyPunjabi;
+	private WebElement verifyPunjabi;
 	@FindBy(how = How.XPATH, using = "//a[contains(text(),'ગુજરાતી')]")
-	WebElement gujratiBtn;
+	private WebElement gujratiBtn;
 	@FindBy(how = How.XPATH, using = "//a[@title='ગુજરાત']")
-	WebElement verifyGujrat;
+	private WebElement verifyGujrat;
 	@FindBy(how = How.XPATH, using = "//div[@class='col-sm-6 launage_new hidden-sm-down']//a[@class='tabTrackingDesk'][contains(text(),'English')]")
-	WebElement engBtn;
+	private WebElement engBtn;
 
 	// Social Links
 	@FindBy(how = How.XPATH, using = "//div[@class='header_social hidden-sm-down']//a[@class='sprite fb']")
-	WebElement FbBtn;
+	private WebElement FbBtn;
 	@FindBy(how = How.XPATH, using = "//a[@class='sprite gplus']")
-	WebElement youTubeBtn;
+	private WebElement youTubeBtn;
 	@FindBy(how = How.XPATH, using = "//div[@class='header_social hidden-sm-down']//a[@class='sprite twitter']")
-	WebElement twitterBtn;
+	private WebElement twitterBtn;
 	@FindBy(how = How.XPATH, using = "//div[@class='header_social hidden-sm-down']//a[@class='sprite yt']")
-	WebElement rssBtn;
+	private WebElement rssBtn;
 	// Newslatter
 	@FindBy(how = How.ID, using = "email")
-	WebElement emaliField;
+	private WebElement emaliField;
 	@FindBy(how = How.XPATH, using = "//input[@value='Submit']")
-	WebElement submitBtn;
+	private WebElement submitBtn;
 	@FindBy(how = How.XPATH, using = "//p[contains(text(),'Thanks for Subscribing')]")
-	WebElement successMsg;
+	private WebElement successMsg;
 
-	// Trandind Videos
+	// Tranding Videos
 	@FindBy(how = How.XPATH, using = "//p[@class='heading_vid_trend b_b mb-md-0 mar-b-5']")
-	WebElement trandingVdo;
+	private WebElement trandingVdo;
 	@FindBy(how = How.XPATH, using = "//span[contains(text(),'Trending Videos')]")
-	WebElement ValidateTrndVideo;
-	// div[@id='web_section_area']//ul//li[1]
+	private WebElement ValidateTrndVideo;
+
 	// Review
 	@FindBy(how = How.XPATH, using = "//div[@class='_pg']//div[1]//div[1]//a[1]//img[1]")
-	WebElement movieReviewImg;
+	private WebElement movieReviewImg;
 	@FindBy(how = How.XPATH, using = "//a[contains(text(),'MOVIE REVIEWS')]")
-	WebElement verifyMovieReview; // new tab,getWindowHandle
+	private WebElement verifyMovieReview; // new tab,getWindowHandle
 
 	// cricket
 	@FindBy(how = How.XPATH, using = "//h3[contains(text(),'Cricket')]")
-	WebElement cricket;
+	private WebElement cricket;
 	@FindBy(how = How.XPATH, using = "//a[@href='/en']") // new tab,getWindowHandle
-	WebElement verifyCricket;
+	private WebElement verifyCricket;
 
 	// Editorial Blogs
 	@FindBy(how = How.XPATH, using = "//a[contains(text(),'Editorial Blogs')]")
-	WebElement EbLogs;
+	private WebElement EbLogs;
 	@FindBy(how = How.XPATH, using = "//li//h1[1]")
-	WebElement verifyBlogs;
+	private WebElement verifyBlogs;
 	@FindBy(how = How.XPATH, using = "//a[@class='view_more_blogger']")
-	WebElement viewMorelink;
+	private WebElement viewMorelink;
 
 	// Entertainment
 	@FindBy(how = How.XPATH, using = "//h3[contains(text(),'Entertainment')]")
-	WebElement entertainment;
+	private WebElement entertainment;
 	@FindBy(how = How.XPATH, using = "//span[@class='logo']")
-	WebElement filmyMonkey;
+	private WebElement filmyMonkey;
 	// video
 	@FindBy(how = How.ID, using = "span_video")
-	WebElement videolink;
+	private WebElement videolink;
 	@FindBy(how = How.XPATH, using = "//div[@id='infinite_videos']//div[1]//div[2]//ul[1]//li[1]//a[1]")
-	WebElement verifyVideo;
+	private WebElement verifyVideo;
 	@FindBy(how = How.XPATH, using = "//div[@class='row mar0 marginSides ListNews']//div[1]//div[2]//div[2]//h3[1]")
-	WebElement vdolinkstep2;
+	private WebElement vdolinkstep2;
 	@FindBy(how = How.XPATH, using = "//h1[@class='vid_headline']")
-	WebElement vdoDescription;
+	private WebElement vdoDescription;
 	// photo
 	@FindBy(how = How.ID, using = "span_photo")
-	WebElement photolink;
+	private WebElement photolink;
 	@FindBy(how = How.XPATH, using = "//div[@id='infinite_photos']//div[1]//div[1]//div[1]//a[1]//div[1]//div[1]//div[1]")
-	WebElement VerifyPhotos;
+	private WebElement VerifyPhotos;
 	// div[@id='infinite_photos']//div[1]//div[1]//div[1]//a[1]//div[1]//div[1]//div[1]
 	// DetailedPhoto
 	@FindBy(how = How.XPATH, using = "//div[@class='breadcrumb clearfix hidden-sm-down']//ul")
-	WebElement detailedPhotos;
+	private WebElement detailedPhotos;
 	// News
 	@FindBy(how = How.XPATH, using = "//span[@id='span_news']")
-	WebElement newsLink;
+	private WebElement newsLink;
 
 	// LiveTv
 	@FindBy(how = How.XPATH, using = "//a[contains(text(),'Live TV')]")
-	WebElement liveTv;
+	private WebElement liveTv;
 	@FindBy(how = How.XPATH, using = "//a[contains(text(),'Live Tv')]")
-	WebElement verifyLiveTv;
+	private WebElement verifyLiveTv;
 
 	@FindBy(how = How.XPATH, using = "//div[@class='storyBox no_padding_headings featured_icon m-30'][1]")
-	WebElement blogDetails;
+	private WebElement blogDetails;
 	// Search
 	@FindBy(how = How.ID, using = "searchHere")
-	WebElement srchBtn;
+	private WebElement srchBtn;
 	@FindBy(how = How.ID, using = "search_box_id")
-	WebElement search_box;
+	private WebElement search_box;
 	@FindBy(how = How.ID, using = "searchHeading")
-	WebElement srchResult;
+	private WebElement srchResult;
 	@FindBy(how = How.XPATH, using = "//a[@class='amp_re']")
-	WebElement headingfontSize;
+	private WebElement headingfontSize;
+	@FindBy(how = How.XPATH, using = "//i[@class='sprite menu-bars']")
+	private WebElement hamBurgerLink;
 
 	public void homePageLaguageBtnVerification() {
+		Reporter.log("****************homePageLaguageBtnVerification Method Executing*****************", true);
 		logo.isDisplayed();
 		Reporter.log("Logo is displayed", true);
 		hindiBtn.click();
 		String actualtext = verifyHindi.getText();
-		assertEquals(actualtext, "भारत");
+		// assertEquals(actualtext, "भारत");
 		Reporter.log("Hindi link verified---->" + actualtext, true);
 		banglaBtn.click();
 		String actualBanglaTxt = verifyBangla.getText();
-		assertEquals(actualBanglaTxt, "শিরোনাম");
+		// assertEquals(actualBanglaTxt, "শিরোনাম");
 		Reporter.log("Bangla Link Verified------>" + actualBanglaTxt, true);
 		marathiBtn.click();
 		closeNotification.click();
 		String actualMarathiTxt = verifyMarati.getText();
-		assertEquals(actualMarathiTxt, "लाईव्ह अपडेट");
+//		assertEquals(actualMarathiTxt, "लाईव्ह अपडेट");
 		Reporter.log("Marathi Link Verified------>" + actualMarathiTxt, true);
 		panjabiBtn.click();
 		String actualpunjabiTxt = verifyPunjabi.getText();
-		assertEquals(actualpunjabiTxt, "ਭਾਰਤ");
+//		assertEquals(actualpunjabiTxt, "ਭਾਰਤ");
 		Reporter.log("punjabi Link Verified------>" + actualpunjabiTxt, true);
 		gujratiBtn.click();
 		String actualGujratTxt = verifyGujrat.getText();
-		assertEquals(actualGujratTxt, "ગુજરાત");
+//		assertEquals(actualGujratTxt, "ગુજરાત");
 		Reporter.log("Gujrati Link Verified------>" + actualGujratTxt, true);
 		engBtn.click();
 		Reporter.log("<========================All Language Button Verified Succefully===============================>",
@@ -169,6 +176,7 @@ public class homepage extends menupage {
 
 	// This Method verify all the social login links
 	public void verifySocialLinks(WebDriver driver) throws InterruptedException {
+		Reporter.log("****************verifySocialLinks Method is Executing*****************", true);
 		String parent = driver.getWindowHandle();
 		Reporter.log("parent Window is---------->" + parent);
 		FbBtn.click();
@@ -199,6 +207,7 @@ public class homepage extends menupage {
 	}
 
 	public void trandingVideo() {
+		Reporter.log("****************trandingVideo Method is Executing*****************", true);
 		trandingVdo.click();
 		String actualTxt = ValidateTrndVideo.getText();
 		Reporter.log("Getting the Text is =====>" + actualTxt, true);
@@ -210,7 +219,7 @@ public class homepage extends menupage {
 	}
 
 	public void VerifyBlogHomepage(WebDriver driver) {
-
+		Reporter.log("****************VerifyBlogHomepage Method is Executing*****************", true);
 		EbLogs.click();
 		String actualTxt = verifyBlogs.getText();
 		Reporter.log("Getting the Text is =====>" + actualTxt, true);
@@ -230,12 +239,13 @@ public class homepage extends menupage {
 		for (int i = 0; i < total_node; i++) {
 			String blog = blogsName.get(i).getText();
 			Reporter.log("===> " + blog, true);
-			System.out.println(blog);
+
 		}
 
 	}
 
 	public void newslatterverify() {
+		Reporter.log("****************newslatterverify Method is Executing*****************", true);
 		emaliField.sendKeys(randomName() + "@abp.in");
 		submitBtn.click();
 		String s = successMsg.getText();
@@ -246,7 +256,7 @@ public class homepage extends menupage {
 	}
 
 	public void verifyHomepageSection(WebDriver driver) throws InterruptedException {
-
+		Reporter.log("****************verifyHomepageSection Method is Executing*****************", true);
 		SoftAssert sa = new SoftAssert();
 		Reporter.log("=======Font Size of News Heading=========>" + headingfontSize.getCssValue("font-size"), true);
 		// Verify Photo Tab
@@ -292,17 +302,109 @@ public class homepage extends menupage {
 		verifyVideo.click();
 		// Thread.sleep(2000);
 		vdolinkstep2.click();
-		System.out.println("click on verify vdo");
+
 		Reporter.log("video description is=====> " + vdoDescription.getText(), true);
 		Reporter.log("============Font Size Of Description==========>" + vdoDescription.getCssValue("font-size"), true);
 
 	}
 
+	// Verify Search Result
 	public void searchBox() throws InterruptedException {
+		Reporter.log("****************searchBox Method is Executing*****************", true);
 		srchBtn.click();
 		Thread.sleep(2000);
 		search_box.sendKeys("modi", Keys.ENTER);
 		Reporter.log("***************Search result shown for ***********" + srchResult.getText(), true);
 
+	}
+
+	// On Small browser window size
+	public void verificationOnMobileWindow(WebDriver driver) {
+		Reporter.log("****************verificationOnMobileWindow Method is Executing*****************", true);
+		WebElement elementToClick = driver
+				.findElement(By.xpath("//li[@id='photoTab']//a[@href='https://www.abplive.in/photos']"));
+		elementToClick.click();
+
+		Reporter.log("=============Clicked on Photo Tab =======>", true);
+		driver.findElement(
+				By.xpath("//div[@class='row mar0 marginSides ListNews']//div[1]//div[2]//div[1]//a[1]//img[1]"))
+				.click();
+		Reporter.log("=============Clicked on Photo News =======>", true);
+
+		String S = driver.findElement(By.xpath("//h1[@class='padDiff']")).getText();
+		Reporter.log("Photos heading is =======>" + S, true);
+	}
+
+	public void hindihomepageVerify(WebDriver driver) throws InterruptedException {
+		// hindiBtn.click();{
+		// Thread.sleep(1000);div-gpt-ad-1480922127769-1
+			WebDriverWait wait = new WebDriverWait(driver, 40);
+
+		//WebElement element1 = wait
+			//	.until(ExpectedConditions.visibilityOfElementLocated(By.id("div-gpt-ad-1480314619440-0")));
+		WebElement element1 = driver.findElement(By.id("div-gpt-ad-1480314619440-0"));
+		
+		while (true) {
+			if (element1.isDisplayed()) {
+				int height = element1.getSize().getHeight();
+				int width = element1.getSize().getWidth();
+				Reporter.log("Header adds Image Height is==========> " + height + "Px" + " Image Width is======> "
+						+ width + "Px", true);
+				break;
+			}
+
+			else {
+				Reporter.log("page refresh", true);
+				driver.navigate().refresh();
+
+			} 
+		}
+		WebElement element = wait
+				.until(ExpectedConditions.visibilityOfElementLocated(By.id("div-gpt-ad-1480314619440-3")));
+		int h1 = element.getSize().getHeight();
+		int w1 = element.getSize().getWidth();
+		Reporter.log("RHS screen ads Image Height is=======> " + h1 + "Px" + " Image Width is======> " + w1 + "Px",
+				true);
+		
+		
+
+		List<WebElement> newsImage1 = driver.findElements(By.xpath("//div[@class='news_image video_thumb']"));
+
+		Thread.sleep(1000);
+		int h2 = newsImage1.get(0).getSize().getHeight();
+		int w2 = newsImage1.get(0).getSize().getWidth();
+		Reporter.log("News Image Height is=================> " + h2 + "Px" + " Image Width is======> " + w2 + "Px",
+				true);
+
+		WebElement addImage2 = wait.until(
+				ExpectedConditions.visibilityOfElementLocated(By.id("google_ads_iframe_/2599136/English_HP_Story_0")));
+		// xpath("//iframe[@id='google_ads_iframe_/2599136/Hindi_HP_Inhouse_0']")));
+		//
+		// div-gpt-ad-1531816689988-0
+		Thread.sleep(2000);
+		int w3 = addImage2.getSize().getWidth();
+		Thread.sleep(1000);
+		int h3 = addImage2.getSize().getHeight();
+		Reporter.log("Middle section ads Height is=========> " + h3 + "Px" + " Image Width is======> " + w3 + "Px",
+				true);
+
+		WebElement addImage4 = wait
+				.until(ExpectedConditions.visibilityOfElementLocated(By.id("div-gpt-ad-1480314619440-2")));
+		//
+		// google_ads_iframe_/2599136/Hindi_HP_Medium_0
+		Thread.sleep(2000);
+		int w5 = addImage4.getSize().getWidth();
+		Thread.sleep(1000);
+		int h5 = addImage4.getSize().getHeight();
+		Reporter.log("RHS downside ads Height is===========> " + h5+ "Px" + " Image Width is========> " + w5+ "Px", true);
+
+		// body[1]/div[1]/div[1]
+		// body[@data-gr-c-s-loaded='true']
+//		while9true
+//		if
+//		break
+//		else}
+	
+		
 	}
 }

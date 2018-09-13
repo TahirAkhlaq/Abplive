@@ -1,0 +1,17 @@
+2018-09-12 12:26:53,260 - com.abp_news.generic.MyTestNGListener -INFO - Test has been executed
+2018-09-12 12:27:00,111 - com.abp_news.generic.MyTestNGListener -INFO - Test has been Started 
+2018-09-12 12:27:05,306 - com.abp_news.generic.MyTestNGListener -INFO - Test Has been executed Successfully
+2018-09-12 12:27:24,390 - com.abp_news.generic.MyTestNGListener -INFO - Test has been Started 
+2018-09-12 12:28:41,892 - com.abp_news.generic.MyTestNGListener -INFO - Test Has been executed Successfully
+2018-09-12 12:28:48,393 - com.abp_news.generic.MyTestNGListener -INFO - Test has been Started 
+2018-09-12 12:28:51,525 - com.abp_news.generic.MyTestNGListener -INFO - Test Has been executed Successfully
+2018-09-12 12:29:12,486 - com.abp_news.generic.MyTestNGListener -INFO - Test has been Started 
+2018-09-12 12:29:36,464 - com.abp_news.generic.MyTestNGListener -INFO - Test Has been executed Successfully
+2018-09-12 12:29:47,362 - com.abp_news.generic.MyTestNGListener -INFO - Test has been Started 
+2018-09-12 12:29:52,333 - com.abp_news.generic.MyTestNGListener -INFO - Test Has been executed Successfully
+2018-09-12 12:29:58,878 - com.abp_news.generic.MyTestNGListener -INFO - Test has been Started 
+2018-09-12 12:30:19,158 - com.abp_news.generic.MyTestNGListener -INFO - Test Has been executed Successfully
+2018-09-12 12:30:27,976 - com.abp_news.generic.MyTestNGListener -INFO - Test has been Started 
+2018-09-12 12:31:08,350 - com.abp_news.generic.MyTestNGListener -INFO - Test Has been executed Successfully
+2018-09-12 12:31:14,586 - com.abp_news.generic.MyTestNGListener -INFO - Test Has Been Skiped
+2018-09-12 12:31:14,608 - com.abp_news.generic.MyTestNGListener -INFO - Test Has Been Completed Successfully

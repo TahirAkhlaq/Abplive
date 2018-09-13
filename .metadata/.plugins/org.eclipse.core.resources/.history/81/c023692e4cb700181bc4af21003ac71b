@@ -1,0 +1,39 @@
+2018-09-11 16:38:38,432 - com.abp_news.generic.MyTestNGListener -INFO - Test has been executed
+2018-09-11 16:38:38,433 - com.abp_news.generic.MyTestNGListener -INFO - Test has been executed
+2018-09-11 16:38:45,159 - com.abp_news.generic.MyTestNGListener -INFO - Test has been Started 
+2018-09-11 16:38:57,450 - com.abp_news.generic.MyTestNGListener -INFO - Test Has Been failed 
+2018-09-11 16:38:57,450 - com.abp_news.generic.MyTestNGListener -ERROR - Calling on TestFailure: 
+2018-09-11 16:39:12,353 - com.abp_news.generic.MyTestNGListener -INFO - Test has been Started 
+2018-09-11 16:39:24,955 - com.abp_news.generic.MyTestNGListener -INFO - Test has been Started 
+2018-09-11 16:39:41,056 - com.abp_news.generic.MyTestNGListener -INFO - Test Has been executed Successfully
+2018-09-11 16:40:23,650 - com.abp_news.generic.MyTestNGListener -INFO - Test Has been executed Successfully
+2018-09-11 16:40:30,551 - com.abp_news.generic.MyTestNGListener -INFO - Test has been Started 
+2018-09-11 16:40:33,439 - com.abp_news.generic.MyTestNGListener -INFO - Test Has been executed Successfully
+2018-09-11 16:40:38,679 - com.abp_news.generic.MyTestNGListener -INFO - Test has been Started 
+2018-09-11 16:40:53,987 - com.abp_news.generic.MyTestNGListener -INFO - Test has been Started 
+2018-09-11 16:41:06,520 - com.abp_news.generic.MyTestNGListener -INFO - Test Has been executed Successfully
+2018-09-11 16:41:08,593 - com.abp_news.generic.MyTestNGListener -INFO - Test Has Been Skiped
+2018-09-11 16:41:08,600 - com.abp_news.generic.MyTestNGListener -INFO - Test Has Been Skiped
+2018-09-11 16:41:08,606 - com.abp_news.generic.MyTestNGListener -INFO - Test Has Been Skiped
+2018-09-11 16:41:08,611 - com.abp_news.generic.MyTestNGListener -INFO - Test Has Been Skiped
+2018-09-11 16:41:08,622 - com.abp_news.generic.MyTestNGListener -INFO - Test Has Been Skiped
+2018-09-11 16:41:10,135 - com.abp_news.generic.MyTestNGListener -INFO - Test Has Been Completed Successfully
+2018-09-11 16:41:26,151 - com.abp_news.generic.MyTestNGListener -INFO - Test Has Been failed 
+2018-09-11 16:41:26,151 - com.abp_news.generic.MyTestNGListener -ERROR - Calling on TestFailure: 
+2018-09-11 16:42:08,029 - com.abp_news.generic.MyTestNGListener -INFO - Test has been Started 
+2018-09-11 16:42:08,200 - com.abp_news.generic.MyTestNGListener -INFO - Test Has Been failed 
+2018-09-11 16:42:08,200 - com.abp_news.generic.MyTestNGListener -ERROR - Calling on TestFailure: 
+2018-09-11 16:42:44,404 - com.abp_news.generic.MyTestNGListener -INFO - Test has been Started 
+2018-09-11 16:43:04,415 - com.abp_news.generic.MyTestNGListener -INFO - Test Has been executed Successfully
+2018-09-11 16:43:46,021 - com.abp_news.generic.MyTestNGListener -INFO - Test has been Started 
+2018-09-11 16:52:28,506 - com.abp_news.generic.MyTestNGListener -INFO - Test Has been executed Successfully
+2018-09-11 16:53:07,344 - com.abp_news.generic.MyTestNGListener -INFO - Test has been Started 
+2018-09-11 16:53:13,761 - com.abp_news.generic.MyTestNGListener -INFO - Test Has been executed Successfully
+2018-09-11 16:53:54,164 - com.abp_news.generic.MyTestNGListener -INFO - Test has been Started 
+2018-09-11 16:54:00,339 - com.abp_news.generic.MyTestNGListener -INFO - Test Has been executed Successfully
+2018-09-11 16:54:45,815 - com.abp_news.generic.MyTestNGListener -INFO - Test has been Started 
+2018-09-11 16:54:47,334 - com.abp_news.generic.MyTestNGListener -INFO - Test Has Been failed 
+2018-09-11 16:54:47,334 - com.abp_news.generic.MyTestNGListener -ERROR - Calling on TestFailure: 
+2018-09-11 16:55:28,392 - com.abp_news.generic.MyTestNGListener -INFO - Test has been Started 
+2018-09-11 16:55:41,602 - com.abp_news.generic.MyTestNGListener -INFO - Test Has been executed Successfully
+2018-09-11 16:55:43,299 - com.abp_news.generic.MyTestNGListener -INFO - Test Has Been Completed Successfully

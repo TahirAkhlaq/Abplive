@@ -1,0 +1,3 @@
+2018-09-11 12:12:17,779 - com.abp_news.generic.MyTestNGListener -INFO - Test has been executed
+2018-09-11 12:12:35,150 - com.abp_news.generic.MyTestNGListener -INFO - Test Has Been Skiped
+2018-09-11 12:12:35,180 - com.abp_news.generic.MyTestNGListener -INFO - Test Has Been Completed Successfully

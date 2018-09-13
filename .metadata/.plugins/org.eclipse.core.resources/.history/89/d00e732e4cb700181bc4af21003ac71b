@@ -1,0 +1,10 @@
+2018-09-12 12:54:59,654 - com.abp_news.generic.MyTestNGListener -INFO - Test has been executed
+2018-09-12 12:55:10,404 - com.abp_news.generic.MyTestNGListener -INFO - Test has been Started 
+2018-09-12 12:55:23,908 - com.abp_news.generic.MyTestNGListener -INFO - Test Has Been failed 
+2018-09-12 12:55:23,909 - com.abp_news.generic.MyTestNGListener -ERROR - Calling on TestFailure: 
+2018-09-12 12:55:30,492 - com.abp_news.generic.MyTestNGListener -INFO - Test has been Started 
+2018-09-12 12:55:42,773 - com.abp_news.generic.MyTestNGListener -INFO - Test Has Been failed 
+2018-09-12 12:55:42,774 - com.abp_news.generic.MyTestNGListener -ERROR - Calling on TestFailure: 
+2018-09-12 12:55:42,810 - com.abp_news.generic.MyTestNGListener -INFO - Test Has Been failed 
+2018-09-12 12:55:42,811 - com.abp_news.generic.MyTestNGListener -ERROR - Calling on TestFailure: 
+2018-09-12 12:55:42,880 - com.abp_news.generic.MyTestNGListener -INFO - Test Has Been Completed Successfully

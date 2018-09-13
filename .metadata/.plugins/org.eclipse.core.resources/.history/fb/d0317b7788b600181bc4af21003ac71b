@@ -1,0 +1,108 @@
+/**
+ * 
+ */
+package com.abp_news.pom;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Reporter;
+
+/**
+ * @author bluepi
+ *
+ */
+public class HindiHomePage extends menupage {
+
+	@FindBy(how = How.XPATH, using = "//a[contains(text(),'हिन्दी')]")
+	private WebElement hindiBtn;
+	@FindBy(how = How.XPATH, using = "//h2[@class='padDiff pad010 h2Style']")
+	private WebElement newsHeading;
+	@FindBy(how = How.XPATH, using = "//img[@class='home initial loading']")
+	private WebElement newsImage;
+	@FindBy(how = How.XPATH, using = "//div[@id='google_ads_iframe_/2599136/Hindi_HP_728x90_0__container__']")
+	private WebElement addsImage;
+	@FindBy(how = How.XPATH, using = "//body[1]/div[1]/div[1]")
+	private WebElement RHSaddsImage;
+
+	public HindiHomePage(WebDriver driver) {
+		super();
+		PageFactory.initElements(driver, this);
+	}
+
+	public void hindihomepageVerify(WebDriver driver) throws InterruptedException {
+		hindiBtn.click();
+		// Thread.sleep(1000);
+		WebDriverWait wait = new WebDriverWait(driver, 20);
+
+		WebElement element1 = wait.until(ExpectedConditions.visibilityOfElementLocated(
+				By.xpath("//div[@id='google_ads_iframe_/2599136/Hindi_HP_728x90_0__container__']")));
+
+		WebElement element = wait.until(
+				ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@id='div-gpt-ad-1480922127769-1']")));
+
+		int height = element1.getSize().getHeight();
+		int width = element1.getSize().getWidth();
+		Reporter.log("Header adds Image Height is======> " + height + " Image Width is======> " + width, true);
+		int h1 = element.getSize().getHeight();
+		int w1 = element.getSize().getWidth();
+		Reporter.log("RHS screen adds Image Height is======> " + h1 + " Image Width is======> " + w1, true);
+
+		WebElement newsImage1 = wait
+				.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//img[@class='home initial loading']")));
+		int h2 = newsImage1.getSize().getHeight();
+		int w2 = newsImage1.getSize().getWidth();
+		Reporter.log("News Image Height is======> " + h2 + " Image Width is======> " + w2, true);
+		
+		
+	//	driver.switchTo().frame("google_ads_iframe_/2599136/Hindi_HP_Inhouse_0");
+		WebElement addImage2 = wait
+				.until(ExpectedConditions.visibilityOfElementLocated(By.id("div-gpt-ad-1531816689988-0")));
+						//xpath("//iframe[@id='google_ads_iframe_/2599136/Hindi_HP_Inhouse_0']")));
+						//
+						//div-gpt-ad-1531816689988-0
+		Thread.sleep(2000);
+		int w3 = addImage2.getSize().getWidth();
+		Thread.sleep(1000);
+		int h3 = addImage2.getSize().getHeight();
+		Reporter.log("LHS add Height is=================> " + h3 + " Image Width is======> " + w3, true);
+		
+		
+		WebElement addImage3 = wait
+				.until(ExpectedConditions.visibilityOfElementLocated(By.id("google_ads_iframe_/2599136/Hindi_HP_Story_0")));
+					//	xpath("//div[@id='google_ads_iframe_/2599136/Hindi_HP_Story_0__container__']")));
+		Thread.sleep(2000);
+		int w4 = addImage3.getSize().getWidth();
+		Thread.sleep(1000);
+		int h4 = addImage3.getSize().getHeight();
+		Reporter.log("Middle Section add Height is======> " + h4 + " Image Width is======> " + w4, true);
+
+		
+		
+		WebElement addImage4 = wait
+				.until(ExpectedConditions.visibilityOfElementLocated(By.id("google_ads_iframe_/2599136/Hindi_HP_Medium_0__container__")));
+						//
+					//	
+		Thread.sleep(2000);
+		int w5 = addImage3.getSize().getWidth();
+		Thread.sleep(1000);
+		int h5 = addImage3.getSize().getHeight();
+		Reporter.log("RHS downside Section add Height is======> " + h5 + " Image Width is======> " + w5, true);
+		
+		//body[1]/div[1]/div[1]
+		//body[@data-gr-c-s-loaded='true']
+	
+		
+		
+		
+		
+		
+		
+		
+	}
+}

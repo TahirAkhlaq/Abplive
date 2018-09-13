@@ -7,7 +7,7 @@
         <methods>
           <include name="preCondition"/>
           <include name="postCondition"/>
-          <include name="searchVerify"/>
+          <include name="hindihomepageVerify"/>
         </methods>
       </class> <!-- com.abp_news.scripts.hometest -->
     </classes>

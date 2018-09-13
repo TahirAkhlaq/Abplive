@@ -2,9 +2,6 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[WEB Browser launched]]>
-    </line>
-    <line>
       <![CDATA[Navigating to the url]]>
     </line>
     <line>
@@ -14,22 +11,31 @@
       <![CDATA[Paga Title is------.Latest News, News Today, Breaking News, Live News Updates - ABP Live]]>
     </line>
     <line>
-      <![CDATA[=======Font Size=========>28px]]>
+      <![CDATA[Header adds Image Height is==========> 90Px Image Width is======> 970Px]]>
+    </line>
+    <line>
+      <![CDATA[RHS screen ads Image Height is=======> 250Px Image Width is======> 300Px]]>
+    </line>
+    <line>
+      <![CDATA[News Image Height is=================> 400Px Image Width is======> 575Px]]>
+    </line>
+    <line>
+      <![CDATA[Middle section ads Height is=========> 250Px Image Width is======> 300Px]]>
+    </line>
+    <line>
+      <![CDATA[RHS downside ads Height is===========> 600Px Image Width is========> 300Px]]>
     </line>
     <line>
       <![CDATA[browsers closed]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6488" started-at="2018-09-10T11:53:38Z" finished-at="2018-09-10T11:53:44Z">
+  <suite name="Default suite" duration-ms="16907" started-at="2018-09-13T11:53:11Z" finished-at="2018-09-13T11:53:28Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6488" started-at="2018-09-10T11:53:38Z" finished-at="2018-09-10T11:53:44Z">
+    <test name="Default test" duration-ms="16907" started-at="2018-09-13T11:53:11Z" finished-at="2018-09-13T11:53:28Z">
       <class name="com.abp_news.scripts.hometest">
-        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.abp_news.scripts.hometest@17d0685f]" name="preCondition" is-config="true" duration-ms="6036" started-at="2018-09-10T11:53:38Z" finished-at="2018-09-10T11:53:44Z">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.abp_news.scripts.hometest@43738a82]" name="preCondition" is-config="true" duration-ms="9418" started-at="2018-09-13T11:53:11Z" finished-at="2018-09-13T11:53:21Z">
           <reporter-output>
-            <line>
-              <![CDATA[WEB Browser launched]]>
-            </line>
             <line>
               <![CDATA[Navigating to the url]]>
             </line>
@@ -41,14 +47,26 @@
             </line>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="homepageMiddleSection()[pri:0, instance:com.abp_news.scripts.hometest@17d0685f]" name="homepageMiddleSection" duration-ms="338" started-at="2018-09-10T11:53:44Z" finished-at="2018-09-10T11:53:44Z">
+        <test-method status="PASS" signature="hindihomepageVerify()[pri:0, instance:com.abp_news.scripts.hometest@43738a82]" name="hindihomepageVerify" duration-ms="7384" started-at="2018-09-13T11:53:21Z" finished-at="2018-09-13T11:53:28Z">
           <reporter-output>
             <line>
-              <![CDATA[=======Font Size=========>28px]]>
+              <![CDATA[Header adds Image Height is==========> 90Px Image Width is======> 970Px]]>
+            </line>
+            <line>
+              <![CDATA[RHS screen ads Image Height is=======> 250Px Image Width is======> 300Px]]>
+            </line>
+            <line>
+              <![CDATA[News Image Height is=================> 400Px Image Width is======> 575Px]]>
+            </line>
+            <line>
+              <![CDATA[Middle section ads Height is=========> 250Px Image Width is======> 300Px]]>
+            </line>
+            <line>
+              <![CDATA[RHS downside ads Height is===========> 600Px Image Width is========> 300Px]]>
             </line>
           </reporter-output>
-        </test-method> <!-- homepageMiddleSection -->
-        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.abp_news.scripts.hometest@17d0685f]" name="postCondition" is-config="true" duration-ms="90" started-at="2018-09-10T11:53:44Z" finished-at="2018-09-10T11:53:44Z">
+        </test-method> <!-- hindihomepageVerify -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.abp_news.scripts.hometest@43738a82]" name="postCondition" is-config="true" duration-ms="74" started-at="2018-09-13T11:53:28Z" finished-at="2018-09-13T11:53:28Z">
           <reporter-output>
             <line>
               <![CDATA[browsers closed]]>

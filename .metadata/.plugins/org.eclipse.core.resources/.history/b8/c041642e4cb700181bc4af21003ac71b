@@ -1,0 +1,11 @@
+2018-09-11 21:09:55,008 - com.abp_news.generic.MyTestNGListener -INFO - Test has been executed
+2018-09-11 21:10:02,480 - com.abp_news.generic.MyTestNGListener -INFO - Test has been Started 
+2018-09-11 21:10:08,224 - com.abp_news.generic.MyTestNGListener -INFO - Test Has been executed Successfully
+2018-09-11 21:15:09,071 - com.abp_news.generic.MyTestNGListener -INFO - Test Has Been Skiped
+2018-09-11 21:15:09,080 - com.abp_news.generic.MyTestNGListener -INFO - Test Has Been Skiped
+2018-09-11 21:15:09,085 - com.abp_news.generic.MyTestNGListener -INFO - Test Has Been Skiped
+2018-09-11 21:15:09,095 - com.abp_news.generic.MyTestNGListener -INFO - Test Has Been Skiped
+2018-09-11 21:15:09,109 - com.abp_news.generic.MyTestNGListener -INFO - Test Has Been Skiped
+2018-09-11 21:15:09,113 - com.abp_news.generic.MyTestNGListener -INFO - Test Has Been Skiped
+2018-09-11 21:15:09,124 - com.abp_news.generic.MyTestNGListener -INFO - Test Has Been Skiped
+2018-09-11 21:15:09,246 - com.abp_news.generic.MyTestNGListener -INFO - Test Has Been Completed Successfully
