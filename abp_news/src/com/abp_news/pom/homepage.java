@@ -6,11 +6,9 @@ import java.util.List;
 import java.util.Set;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
@@ -138,6 +136,10 @@ public class homepage extends menupage {
 	private WebElement headingfontSize;
 	@FindBy(how = How.XPATH, using = "//i[@class='sprite menu-bars']")
 	private WebElement hamBurgerLink;
+	@FindBy(how = How.ID, using = "google_ads_iframe_/2599136/English_HP_Medium_0__container__")
+	private WebElement adsRHSd;
+	@FindBy(how = How.ID, using = "google_ads_iframe_/2599136/English_HP_728x90_0")
+	private WebElement headerAds;
 
 	public void homePageLaguageBtnVerification() {
 		Reporter.log("****************homePageLaguageBtnVerification Method Executing*****************", true);
@@ -335,41 +337,33 @@ public class homepage extends menupage {
 		Reporter.log("Photos heading is =======>" + S, true);
 	}
 
-	public void hindihomepageVerify(WebDriver driver) throws InterruptedException {
-		// hindiBtn.click();{
-		// Thread.sleep(1000);div-gpt-ad-1480922127769-1
-			WebDriverWait wait = new WebDriverWait(driver, 40);
+	public void homePageImageSizeVerify(WebDriver driver) throws InterruptedException {
 
-		//WebElement element1 = wait
-			//	.until(ExpectedConditions.visibilityOfElementLocated(By.id("div-gpt-ad-1480314619440-0")));
-		WebElement element1 = driver.findElement(By.id("div-gpt-ad-1480314619440-0"));
-		
+		WebDriverWait wait = new WebDriverWait(driver, 40);
+		//WebElement element1 = driver.findElement(By.id("google_ads_iframe_/2599136/English_HP_728x90_0"));
 		while (true) {
-			if (element1.isDisplayed()) {
-				int height = element1.getSize().getHeight();
-				int width = element1.getSize().getWidth();
+			Reporter.log("Home Page Image verification method is running now", true);
+			if (headerAds.isDisplayed()) {
+				int height = headerAds.getSize().getHeight();
+				int width = headerAds.getSize().getWidth();
 				Reporter.log("Header adds Image Height is==========> " + height + "Px" + " Image Width is======> "
 						+ width + "Px", true);
 				break;
-			}
-
-			else {
+			} else {
 				Reporter.log("page refresh", true);
 				driver.navigate().refresh();
-
-			} 
+			}
 		}
+		
 		WebElement element = wait
 				.until(ExpectedConditions.visibilityOfElementLocated(By.id("div-gpt-ad-1480314619440-3")));
 		int h1 = element.getSize().getHeight();
 		int w1 = element.getSize().getWidth();
 		Reporter.log("RHS screen ads Image Height is=======> " + h1 + "Px" + " Image Width is======> " + w1 + "Px",
 				true);
+		//assertEquals(h1, "250");
 		
-		
-
 		List<WebElement> newsImage1 = driver.findElements(By.xpath("//div[@class='news_image video_thumb']"));
-
 		Thread.sleep(1000);
 		int h2 = newsImage1.get(0).getSize().getHeight();
 		int w2 = newsImage1.get(0).getSize().getWidth();
@@ -378,33 +372,32 @@ public class homepage extends menupage {
 
 		WebElement addImage2 = wait.until(
 				ExpectedConditions.visibilityOfElementLocated(By.id("google_ads_iframe_/2599136/English_HP_Story_0")));
-		// xpath("//iframe[@id='google_ads_iframe_/2599136/Hindi_HP_Inhouse_0']")));
-		//
-		// div-gpt-ad-1531816689988-0
-		Thread.sleep(2000);
 		int w3 = addImage2.getSize().getWidth();
-		Thread.sleep(1000);
 		int h3 = addImage2.getSize().getHeight();
 		Reporter.log("Middle section ads Height is=========> " + h3 + "Px" + " Image Width is======> " + w3 + "Px",
 				true);
-
-		WebElement addImage4 = wait
-				.until(ExpectedConditions.visibilityOfElementLocated(By.id("div-gpt-ad-1480314619440-2")));
-		//
-		// google_ads_iframe_/2599136/Hindi_HP_Medium_0
-		Thread.sleep(2000);
-		int w5 = addImage4.getSize().getWidth();
-		Thread.sleep(1000);
-		int h5 = addImage4.getSize().getHeight();
-		Reporter.log("RHS downside ads Height is===========> " + h5+ "Px" + " Image Width is========> " + w5+ "Px", true);
-
-		// body[1]/div[1]/div[1]
-		// body[@data-gr-c-s-loaded='true']
-//		while9true
-//		if
-//		break
-//		else}
 	
 		
+		/*WebElement addImage4 = wait.until(
+				ExpectedConditions.visibilityOfElementLocated(By.id("google_ads_iframe_/2599136/English_HP_Medium_0__container__")));
+		int w5 = addImage4.getSize().getWidth();
+		int h5 = addImage4.getSize().getHeight();
+		Reporter.log("Middle section ads Height is=========> " + h5 + "Px" + " Image Width is======> " + w5 + "Px",
+				true);*/
+	//	WebElement adsImage4 = driver.findElement((By.id("google_ads_iframe_/2599136/English_HP_Medium_0__container__")));
+	while(true) {
+		if(adsRHSd.isDisplayed()) {
+		int w5 = adsRHSd.getSize().getWidth();
+		int h5 = adsRHSd.getSize().getHeight();
+		Reporter.log("RHS downside ads Height is===========> " + h5 + "Px" + " Image Width is========> " + w5 + "Px",
+				true);
+		break;
+		}
+		else {
+			driver.navigate().refresh();
+		}
+	}
+	
+	
 	}
 }

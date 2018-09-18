@@ -4,18 +4,20 @@
 	<listeners>
 		<listener class-name="com.abp_news.generic.MyTestNGListener" />
 	</listeners>
-	<!-- <test thread-count="5" name="FirefoxTestCases">
+	<test thread-count="5" name="FirefoxTestCases">
 		<parameter name="browser" value="firefox" />
 		<classes>
 			<class name="com.abp_news.scripts.hometest" />
+			<class name="com.abp_news.scripts.HindiHomeTest" />
 		</classes>
-	</test>  -->
+	</test> 
 
 
 	<test thread-count="5" name="ChromeTestCases">
 		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="com.abp_news.scripts.hometest" />
+			<class name="com.abp_news.scripts.HindiHomeTest" />
 		</classes>
 	</test>
 

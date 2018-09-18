@@ -31,40 +31,30 @@ public class BaseLib {
 	@BeforeMethod
 	@Parameters("browser")
 
-	public void preCondition() throws MalformedURLException {
-	//	String browser
-		// System.setProperty("webdriver.firefox.marionette","
-		// .\\exefiles\\geckodriver.exe");
-		// driver = new FirefoxDriver();
-		// System.setProperty("webdriver.chrome.driver","
-		// .\\exefiles\\chromedriver.exe");
-
-		// Set the experimental option
-
-		driver = new ChromeDriver();
-		// driver=new RemoteWebDriver(DesiredCapabilities.chrome());
-		// Reporter.log("chrome launched", true);
-		// log.info("chrome launched");
-		// driver = new HtmlUnitDriver();
-		// driver = new RemoteWebDriver(DesiredCapabilities.chrome());
-		// log.info("HTML Browser launched");
-		//Reporter.log("WEB Browser launched", true);
-
-//		DesiredCapabilities cap = new DesiredCapabilities();
-//		cap.setBrowserName(browser);
-//		cap.setPlatform(Platform.LINUX);
-//		String hubUrl = " http://10.0.0.183:4448/wd/hub";
+	public void preCondition(String browser) throws MalformedURLException {
 		
-		/*if (browser.equalsIgnoreCase("firefox")) {
+		
+
+	
+
+		//driver = new ChromeDriver();
+		
+
+/*		DesiredCapabilities cap = new DesiredCapabilities();
+		cap.setBrowserName(browser);
+		cap.setPlatform(Platform.LINUX);
+		String hubUrl = " http://10.0.0.183:4448/wd/hub";*/
+		
+		if (browser.equalsIgnoreCase("firefox")) {
 
 			//driver=new RemoteWebDriver(DesiredCapabilities.firefox());
 			driver= new FirefoxDriver();
 			Reporter.log("Firefox launched", true);
 		} else if (browser.equalsIgnoreCase("chrome")) {
 			ChromeOptions options = new ChromeOptions();
-			//options.merge(cap);
-		//	driver = new RemoteWebDriver(new URL(hubUrl),options);
-			//driver = new ChromeDriver();
+			/*options.merge(cap);
+			driver = new RemoteWebDriver(new URL(hubUrl),options);*/
+			driver = new ChromeDriver();
 			Reporter.log("chrome launched", true);
 		} else if (browser.equalsIgnoreCase("ie")) {
 			System.setProperty("webdriver.ie.driver", ".\\exefiles\\IEDriverServer.exe");
@@ -76,7 +66,7 @@ public class BaseLib {
 			//driver = new RemoteWebDriver(DesiredCapabilities.firefox());
 			Reporter.log("Firefox launched", true);
 		}
-*/
+
 		driver.manage().window().maximize();
 		driver.get("https://www.abplive.in");
 		driver.findElement(By.id("closeNotification")).click();

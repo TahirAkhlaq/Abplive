@@ -3,6 +3,7 @@ package com.abp_news.pom;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.List;
+import java.util.Set;
 
 import org.apache.commons.lang3.RandomStringUtils;
 import org.openqa.selenium.By;
@@ -56,6 +57,16 @@ abstract class menupage {
 	@FindBy(how = How.XPATH, using="//i[@class='searchbox-icon sprite']")
 	WebElement srchBtn;
 	
+	//Social links
+	@FindBy(how = How.XPATH, using = "//ul[@class='socialLinks _nsi']//a[@class='sprite fb']")
+	private WebElement FbBtn;
+	@FindBy(how = How.XPATH, using = "//ul[@class='socialLinks _nsi']//a[@class='sprite gplus']")
+	private WebElement youTubeBtn;
+	@FindBy(how = How.XPATH, using = "//ul[@class='socialLinks _nsi']//a[@class='sprite twitter']")
+	private WebElement twitterBtn;
+	@FindBy(how = How.XPATH, using = "//ul[@class='socialLinks _nsi']//a[@class='sprite yt']")
+	private WebElement rssBtn;
+	
 	
 	
 		public void linkVerification(WebDriver driver) {
@@ -103,5 +114,31 @@ public  String randomName() {
 	boolean useNumbers = false;
 	String generatedString = RandomStringUtils.random(length, useLetters, useNumbers);
 	return generatedString;
+}
+
+
+public void verifySocialLinksm(WebDriver driver) throws InterruptedException {
+	Reporter.log("****************verifySocialLinks Method is Executing*****************", true);
+	String parent = driver.getWindowHandle();
+	Reporter.log("parent Window is---------->" + parent);
+	FbBtn.click();
+	twitterBtn.click();
+	youTubeBtn.click();
+	//movieReviewImg.click();
+	rssBtn.click();
+
+	Reporter.log("<=========== Clicked on RSS Button============>", true);
+	Set<String> allwindows = driver.getWindowHandles();
+	int count = allwindows.size();
+	Reporter.log("total window  " + count, true);
+	for (String child : allwindows) {
+		if (!parent.equalsIgnoreCase(child)) {
+			driver.switchTo().window(child);
+			Reporter.log("***************Child Window Title is  " + driver.getTitle(), true);
+			Thread.sleep(2000);
+			driver.close();
+
+		}
+	}
 }
 }

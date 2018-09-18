@@ -11,10 +11,10 @@ public class hometest extends BaseLib {
 
 	
 	@Test
-	public void hindihomepageVerify() throws InterruptedException {
+	public void homePageImageVerify() throws InterruptedException {
 		homepage hp = new homepage(driver);
 		wLib.implicitWaitForSeconds(driver, 10);
-		hp.hindihomepageVerify(driver);
+		hp.homePageImageSizeVerify(driver);
 	}
 	
 	/*@Test

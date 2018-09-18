@@ -564,3 +564,16 @@
 2018-09-12 13:53:39,271 [TestNG-tests-1] INFO com.abp_news.generic.MyTestNGListener - Test has been Started 
 2018-09-12 13:53:44,651 [TestNG-tests-1] INFO com.abp_news.generic.MyTestNGListener - Test Has been executed Successfully
 2018-09-12 13:53:46,825 [TestNG-tests-1] INFO com.abp_news.generic.MyTestNGListener - Test Has Been Completed Successfully
+2018-09-18 16:44:45,373 [TestNG-tests-1] INFO com.abp_news.generic.MyTestNGListener - Test has been executed
+2018-09-18 16:44:45,381 [TestNG-tests-2] INFO com.abp_news.generic.MyTestNGListener - Test has been executed
+2018-09-18 16:45:25,673 [TestNG-tests-1] INFO com.abp_news.generic.MyTestNGListener - Test has been Started 
+2018-09-18 16:46:09,182 [TestNG-tests-2] INFO com.abp_news.generic.MyTestNGListener - Test has been Started 
+2018-09-18 16:46:24,969 [TestNG-tests-2] INFO com.abp_news.generic.MyTestNGListener - Test Has been executed Successfully
+2018-09-18 16:46:33,054 [TestNG-tests-2] INFO com.abp_news.generic.MyTestNGListener - Test has been Started 
+2018-09-18 16:48:28,199 [TestNG-tests-1] INFO com.abp_news.generic.MyTestNGListener - Test Has been executed Successfully
+2018-09-18 16:48:57,091 [TestNG-tests-1] INFO com.abp_news.generic.MyTestNGListener - Test has been Started 
+2018-09-18 16:49:03,692 [TestNG-tests-1] INFO com.abp_news.generic.MyTestNGListener - Test Has Been failed 
+2018-09-18 16:49:03,692 [TestNG-tests-1] ERROR com.abp_news.generic.MyTestNGListener - Calling on TestFailure: 
+2018-09-18 16:49:06,445 [TestNG-tests-1] INFO com.abp_news.generic.MyTestNGListener - Test Has Been Completed Successfully
+2018-09-18 16:53:04,860 [TestNG-tests-2] INFO com.abp_news.generic.MyTestNGListener - Test Has been executed Successfully
+2018-09-18 16:53:05,146 [TestNG-tests-2] INFO com.abp_news.generic.MyTestNGListener - Test Has Been Completed Successfully

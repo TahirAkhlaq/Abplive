@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Main Test Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.abp_news.generic.MyTestNGListener"/>
+  </listeners>
+  <test thread-count="2" name="FirefoxTestCases(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="com.abp_news.scripts.hometest">
+      <class name="com.abp_news.scripts.HindiHomeTest">
         <methods>
+          <include name="image"/>
           <include name="preCondition"/>
           <include name="postCondition"/>
-          <include name="hindihomepageVerify"/>
         </methods>
-      </class> <!-- com.abp_news.scripts.hometest -->
+      </class> <!-- com.abp_news.scripts.HindiHomeTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- FirefoxTestCases(failed) -->
+</suite> <!-- Failed suite [Main Test Suite] -->

@@ -4938,3 +4938,660 @@ Caused by: java.io.FileNotFoundException: /home/bluepi/eclipse-workspace/imademe
 2018-09-13 17:27:26,125 [Worker-689: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
 2018-09-13 17:27:26,126 [Worker-689: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2018-09-13 17:27:26,126 [Worker-689: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-13 17:34:33,057 [Worker-697: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-13 17:34:33,057 [Worker-697: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-13 17:34:33,058 [Worker-697: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-13 17:34:33,058 [Worker-697: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-13 17:34:38,361 [Worker-700: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-13 17:34:38,361 [Worker-700: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-13 17:34:38,362 [Worker-700: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-13 17:34:38,362 [Worker-700: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-13 17:35:19,178 [Worker-697: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-13 17:35:19,179 [Worker-697: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-13 17:35:19,179 [Worker-697: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-13 17:35:19,179 [Worker-697: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-13 17:35:59,965 [Worker-701: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-13 17:35:59,966 [Worker-701: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-13 17:35:59,966 [Worker-701: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-13 17:35:59,966 [Worker-701: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-13 17:36:43,707 [Worker-698: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-13 17:36:43,708 [Worker-698: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-13 17:36:43,708 [Worker-698: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-13 17:36:43,709 [Worker-698: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-13 17:38:32,281 [Worker-700: Launching hometest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-13 17:38:32,282 [Worker-700: Launching hometest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-13 17:38:32,283 [Worker-700: Launching hometest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-13 17:38:32,295 [Worker-700: Launching hometest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-13 17:39:15,147 [Worker-701: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-13 17:39:15,147 [Worker-701: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-13 17:39:15,148 [Worker-701: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-13 17:39:15,148 [Worker-701: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-13 17:39:52,778 [Worker-701: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-13 17:39:52,779 [Worker-701: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-13 17:39:52,779 [Worker-701: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-13 17:39:52,779 [Worker-701: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-13 17:47:13,238 [Worker-705: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-13 17:47:13,239 [Worker-705: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-13 17:47:13,239 [Worker-705: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-13 17:47:13,240 [Worker-705: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-13 17:47:17,824 [Worker-703: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-13 17:47:17,824 [Worker-703: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-13 17:47:17,825 [Worker-703: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-13 17:47:17,825 [Worker-703: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-13 17:47:58,283 [Worker-705: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-13 17:47:58,283 [Worker-705: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-13 17:47:58,284 [Worker-705: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-13 17:47:58,284 [Worker-705: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-13 17:48:08,297 [Worker-701: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-13 17:48:08,297 [Worker-701: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-13 17:48:08,297 [Worker-701: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-13 17:48:08,297 [Worker-701: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-13 17:48:42,453 [Worker-703: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-13 17:48:42,453 [Worker-703: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-13 17:48:42,454 [Worker-703: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-13 17:48:42,454 [Worker-703: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-14 10:38:57,161 [Worker-712: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 10:38:57,162 [Worker-712: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-14 10:38:57,162 [Worker-712: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 10:38:57,162 [Worker-712: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-14 10:42:05,569 [Worker-718: Launching hometest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 10:42:05,569 [Worker-718: Launching hometest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-14 10:42:05,570 [Worker-718: Launching hometest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 10:42:05,571 [Worker-718: Launching hometest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-14 11:06:25,351 [Worker-729: Launching hometest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 11:06:25,352 [Worker-729: Launching hometest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-14 11:06:25,354 [Worker-729: Launching hometest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 11:06:25,354 [Worker-729: Launching hometest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-14 11:20:09,535 [Worker-738: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 11:20:09,535 [Worker-738: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-14 11:20:09,536 [Worker-738: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 11:20:09,536 [Worker-738: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-14 11:21:30,205 [Worker-727: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 11:21:30,205 [Worker-727: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-14 11:21:30,206 [Worker-727: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 11:21:30,206 [Worker-727: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-14 11:23:04,628 [Worker-727: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 11:23:04,629 [Worker-727: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-14 11:23:04,629 [Worker-727: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 11:23:04,629 [Worker-727: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-14 11:23:37,410 [Worker-740: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 11:23:37,411 [Worker-740: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-14 11:23:37,411 [Worker-740: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 11:23:37,412 [Worker-740: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-14 11:23:46,289 [Worker-739: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 11:23:46,289 [Worker-739: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-14 11:23:46,290 [Worker-739: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 11:23:46,290 [Worker-739: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-14 11:27:59,790 [Worker-742: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 11:27:59,790 [Worker-742: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-14 11:27:59,791 [Worker-742: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 11:27:59,791 [Worker-742: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-14 11:28:14,973 [Worker-735: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 11:28:14,973 [Worker-735: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-14 11:28:14,974 [Worker-735: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 11:28:14,975 [Worker-735: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-14 11:36:47,660 [Worker-747: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 11:36:47,661 [Worker-747: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-14 11:36:47,661 [Worker-747: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 11:36:47,661 [Worker-747: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-14 11:37:03,669 [Worker-743: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 11:37:03,669 [Worker-743: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-14 11:37:03,670 [Worker-743: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 11:37:03,670 [Worker-743: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-14 11:37:51,488 [Worker-747: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 11:37:51,489 [Worker-747: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-14 11:37:51,490 [Worker-747: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 11:37:51,491 [Worker-747: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-14 11:38:22,112 [Worker-735: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 11:38:22,114 [Worker-735: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-14 11:38:22,114 [Worker-735: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 11:38:22,115 [Worker-735: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-14 11:38:32,911 [Worker-743: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 11:38:32,911 [Worker-743: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-14 11:38:32,911 [Worker-743: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 11:38:32,911 [Worker-743: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-14 11:38:41,616 [Worker-743: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 11:38:41,616 [Worker-743: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-14 11:38:41,617 [Worker-743: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 11:38:41,618 [Worker-743: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-14 11:39:51,316 [Worker-747: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 11:39:51,316 [Worker-747: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-14 11:39:51,316 [Worker-747: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 11:39:51,316 [Worker-747: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-14 11:41:18,538 [Worker-735: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 11:41:18,539 [Worker-735: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-14 11:41:18,540 [Worker-735: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 11:41:18,540 [Worker-735: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-14 11:41:39,301 [Worker-748: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 11:41:39,301 [Worker-748: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-14 11:41:39,302 [Worker-748: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 11:41:39,302 [Worker-748: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-14 11:42:19,961 [Worker-748: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 11:42:19,961 [Worker-748: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-14 11:42:19,961 [Worker-748: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 11:42:19,961 [Worker-748: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-14 11:42:28,184 [Worker-749: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 11:42:28,184 [Worker-749: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-14 11:42:28,184 [Worker-749: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 11:42:28,184 [Worker-749: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-14 11:42:32,101 [Worker-747: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 11:42:32,101 [Worker-747: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-14 11:42:32,102 [Worker-747: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 11:42:32,102 [Worker-747: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-14 11:45:27,964 [Worker-751: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 11:45:27,964 [Worker-751: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-14 11:45:27,965 [Worker-751: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 11:45:27,965 [Worker-751: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-14 11:46:17,169 [Worker-735: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 11:46:17,169 [Worker-735: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-14 11:46:17,170 [Worker-735: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 11:46:17,170 [Worker-735: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-14 11:49:21,590 [Worker-754: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 11:49:21,591 [Worker-754: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-14 11:49:21,591 [Worker-754: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 11:49:21,591 [Worker-754: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-14 11:50:31,813 [Worker-735: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 11:50:31,813 [Worker-735: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-14 11:50:31,813 [Worker-735: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 11:50:31,813 [Worker-735: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-14 11:55:53,508 [Worker-755: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 11:55:53,508 [Worker-755: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-14 11:55:53,509 [Worker-755: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 11:55:53,509 [Worker-755: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-14 11:56:12,884 [Worker-749: Launching hometest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 11:56:12,884 [Worker-749: Launching hometest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-14 11:56:12,885 [Worker-749: Launching hometest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 11:56:12,886 [Worker-749: Launching hometest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-14 17:16:41,838 [Worker-838: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 17:16:41,877 [Worker-838: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-14 17:16:41,878 [Worker-838: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 17:16:41,879 [Worker-838: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-14 17:17:25,303 [Worker-839: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 17:17:25,303 [Worker-839: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-14 17:17:25,304 [Worker-839: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 17:17:25,304 [Worker-839: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-14 17:17:33,596 [Worker-838: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 17:17:33,597 [Worker-838: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-14 17:17:33,598 [Worker-838: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 17:17:33,599 [Worker-838: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-14 17:17:50,315 [Worker-844: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 17:17:50,316 [Worker-844: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-14 17:17:50,316 [Worker-844: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 17:17:50,316 [Worker-844: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-14 17:18:49,524 [Worker-838: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 17:18:49,525 [Worker-838: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-14 17:18:49,525 [Worker-838: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-14 17:18:49,526 [Worker-838: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-17 10:25:28,336 [Worker-928: Launching hometest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 10:25:28,357 [Worker-928: Launching hometest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-17 10:25:28,358 [Worker-928: Launching hometest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 10:25:28,358 [Worker-928: Launching hometest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-17 10:26:12,537 [Worker-931: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 10:26:12,538 [Worker-931: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-17 10:26:12,539 [Worker-931: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 10:26:12,539 [Worker-931: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-17 10:26:24,279 [Worker-929: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 10:26:24,279 [Worker-929: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-17 10:26:24,280 [Worker-929: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 10:26:24,280 [Worker-929: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-17 10:26:40,098 [Worker-928: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 10:26:40,099 [Worker-928: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-17 10:26:40,099 [Worker-928: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 10:26:40,099 [Worker-928: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-17 10:35:00,958 [Worker-933: Launching hometest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 10:35:00,958 [Worker-933: Launching hometest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-17 10:35:00,959 [Worker-933: Launching hometest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 10:35:00,960 [Worker-933: Launching hometest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-17 11:15:08,900 [Worker-949: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 11:15:08,900 [Worker-949: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-17 11:15:08,901 [Worker-949: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 11:15:08,901 [Worker-949: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-17 11:16:43,616 [Worker-949: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 11:16:43,617 [Worker-949: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-17 11:16:43,617 [Worker-949: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 11:16:43,617 [Worker-949: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-17 11:22:47,049 [Worker-950: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 11:22:47,049 [Worker-950: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-17 11:22:47,050 [Worker-950: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 11:22:47,050 [Worker-950: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-17 11:24:22,454 [Worker-956: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 11:24:22,454 [Worker-956: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-17 11:24:22,455 [Worker-956: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 11:24:22,455 [Worker-956: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-17 11:24:43,352 [Worker-955: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 11:24:43,352 [Worker-955: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-17 11:24:43,353 [Worker-955: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 11:24:43,353 [Worker-955: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-17 11:57:56,443 [Worker-963: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 11:57:56,444 [Worker-963: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-17 11:57:56,444 [Worker-963: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 11:57:56,445 [Worker-963: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-17 12:00:18,086 [Worker-964: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 12:00:18,087 [Worker-964: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-17 12:00:18,088 [Worker-964: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 12:00:18,088 [Worker-964: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-17 12:06:13,366 [Worker-962: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 12:06:13,392 [Worker-962: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-17 12:06:13,393 [Worker-962: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 12:06:13,393 [Worker-962: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-17 12:06:35,813 [Worker-966: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 12:06:35,814 [Worker-966: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-17 12:06:35,816 [Worker-966: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 12:06:35,817 [Worker-966: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-17 12:06:53,138 [Worker-966: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 12:06:53,139 [Worker-966: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-17 12:06:53,141 [Worker-966: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 12:06:53,141 [Worker-966: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-17 12:07:01,865 [Worker-963: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 12:07:01,866 [Worker-963: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-17 12:07:01,866 [Worker-963: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 12:07:01,866 [Worker-963: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-17 12:08:06,166 [Worker-963: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 12:08:06,167 [Worker-963: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-17 12:08:06,168 [Worker-963: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 12:08:06,168 [Worker-963: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-17 12:08:10,761 [Worker-966: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 12:08:10,762 [Worker-966: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-17 12:08:10,764 [Worker-966: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 12:08:10,764 [Worker-966: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-17 12:11:06,243 [Worker-971: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 12:11:06,244 [Worker-971: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-17 12:11:06,244 [Worker-971: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 12:11:06,244 [Worker-971: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-17 12:12:22,919 [Worker-972: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 12:12:22,920 [Worker-972: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-17 12:12:22,920 [Worker-972: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 12:12:22,920 [Worker-972: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-17 12:14:50,235 [Worker-965: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 12:14:50,236 [Worker-965: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-17 12:14:50,236 [Worker-965: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 12:14:50,237 [Worker-965: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-17 12:15:07,182 [Worker-974: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 12:15:07,183 [Worker-974: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-17 12:15:07,184 [Worker-974: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 12:15:07,184 [Worker-974: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-17 12:16:57,749 [Worker-974: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 12:16:57,750 [Worker-974: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-17 12:16:57,750 [Worker-974: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 12:16:57,750 [Worker-974: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-17 12:17:01,397 [Worker-973: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 12:17:01,398 [Worker-973: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-17 12:17:01,398 [Worker-973: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 12:17:01,399 [Worker-973: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-17 12:23:54,523 [Worker-978: Launching HindiHomeTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 12:23:54,523 [Worker-978: Launching HindiHomeTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-17 12:23:54,524 [Worker-978: Launching HindiHomeTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 12:23:54,525 [Worker-978: Launching HindiHomeTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-17 12:26:48,236 [Worker-975: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 12:26:48,236 [Worker-975: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-17 12:26:48,237 [Worker-975: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 12:26:48,238 [Worker-975: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-17 12:27:29,632 [Worker-977: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 12:27:29,632 [Worker-977: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-17 12:27:29,632 [Worker-977: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 12:27:29,632 [Worker-977: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-17 12:39:12,630 [Worker-982: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 12:39:12,630 [Worker-982: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-17 12:39:12,631 [Worker-982: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 12:39:12,631 [Worker-982: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-17 12:39:29,106 [Worker-984: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 12:39:29,107 [Worker-984: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-17 12:39:29,107 [Worker-984: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 12:39:29,108 [Worker-984: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-17 12:39:55,258 [Worker-982: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 12:39:55,258 [Worker-982: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-17 12:39:55,259 [Worker-982: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 12:39:55,259 [Worker-982: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-17 12:42:52,679 [Worker-986: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 12:42:52,680 [Worker-986: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-17 12:42:52,681 [Worker-986: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 12:42:52,682 [Worker-986: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-17 12:44:53,097 [Worker-988: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 12:44:53,097 [Worker-988: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-17 12:44:53,098 [Worker-988: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 12:44:53,098 [Worker-988: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-17 13:06:44,573 [Worker-997: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 13:06:44,574 [Worker-997: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-17 13:06:44,574 [Worker-997: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 13:06:44,575 [Worker-997: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-17 13:10:38,187 [Worker-999: Launching HindiHomeTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 13:10:38,187 [Worker-999: Launching HindiHomeTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-17 13:10:38,188 [Worker-999: Launching HindiHomeTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 13:10:38,189 [Worker-999: Launching HindiHomeTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-17 13:14:20,384 [Worker-1005: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 13:14:20,385 [Worker-1005: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-17 13:14:20,385 [Worker-1005: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 13:14:20,385 [Worker-1005: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-17 14:21:22,995 [Worker-1026: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 14:21:22,995 [Worker-1026: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-17 14:21:22,996 [Worker-1026: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 14:21:22,996 [Worker-1026: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-17 14:21:27,773 [Worker-1028: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 14:21:27,774 [Worker-1028: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-17 14:21:27,774 [Worker-1028: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 14:21:27,775 [Worker-1028: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-17 14:24:23,187 [Worker-1019: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 14:24:23,187 [Worker-1019: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-17 14:24:23,188 [Worker-1019: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 14:24:23,188 [Worker-1019: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-17 14:27:34,003 [Worker-1029: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 14:27:34,004 [Worker-1029: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-17 14:27:34,004 [Worker-1029: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 14:27:34,004 [Worker-1029: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-17 14:30:49,420 [Worker-1029: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 14:30:49,420 [Worker-1029: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-17 14:30:49,421 [Worker-1029: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 14:30:49,421 [Worker-1029: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-17 14:32:03,792 [Worker-1030: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 14:32:03,792 [Worker-1030: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-17 14:32:03,793 [Worker-1030: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 14:32:03,793 [Worker-1030: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-17 14:36:27,066 [Worker-1032: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 14:36:27,067 [Worker-1032: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-17 14:36:27,067 [Worker-1032: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 14:36:27,067 [Worker-1032: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-17 14:40:19,283 [Worker-1038: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 14:40:19,283 [Worker-1038: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-17 14:40:19,285 [Worker-1038: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 14:40:19,285 [Worker-1038: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-17 14:40:55,790 [Worker-1038: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 14:40:55,790 [Worker-1038: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-17 14:40:55,790 [Worker-1038: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 14:40:55,791 [Worker-1038: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-17 14:41:06,093 [Worker-1037: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 14:41:06,093 [Worker-1037: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-17 14:41:06,094 [Worker-1037: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 14:41:06,095 [Worker-1037: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-17 14:45:34,803 [Worker-1044: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 14:45:34,803 [Worker-1044: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-17 14:45:34,804 [Worker-1044: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 14:45:34,804 [Worker-1044: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-17 14:46:07,245 [Worker-1041: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 14:46:07,246 [Worker-1041: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-17 14:46:07,246 [Worker-1041: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 14:46:07,247 [Worker-1041: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-17 14:47:06,582 [Worker-1038: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 14:47:06,583 [Worker-1038: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-17 14:47:06,584 [Worker-1038: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 14:47:06,584 [Worker-1038: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-17 14:48:29,255 [Worker-1045: Launching HindiHomeTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 14:48:29,255 [Worker-1045: Launching HindiHomeTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-17 14:48:29,256 [Worker-1045: Launching HindiHomeTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 14:48:29,257 [Worker-1045: Launching HindiHomeTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-17 14:53:56,468 [Worker-1046: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 14:53:56,468 [Worker-1046: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-17 14:53:56,468 [Worker-1046: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 14:53:56,469 [Worker-1046: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-17 14:54:51,598 [Worker-1046: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 14:54:51,598 [Worker-1046: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-17 14:54:51,599 [Worker-1046: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 14:54:51,599 [Worker-1046: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-17 14:58:24,084 [Worker-1047: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 14:58:24,084 [Worker-1047: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-17 14:58:24,085 [Worker-1047: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 14:58:24,085 [Worker-1047: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-17 15:00:01,873 [Worker-1039: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 15:00:01,874 [Worker-1039: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-17 15:00:01,874 [Worker-1039: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-17 15:00:01,874 [Worker-1039: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 11:06:43,756 [Worker-1097: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 11:06:43,776 [Worker-1097: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 11:06:43,777 [Worker-1097: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 11:06:43,777 [Worker-1097: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 11:12:48,252 [Worker-1103: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 11:12:48,253 [Worker-1103: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 11:12:48,254 [Worker-1103: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 11:12:48,254 [Worker-1103: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 11:18:48,666 [Worker-4: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-09-18 11:19:01,760 [Worker-0: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 11:19:01,762 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 11:19:01,766 [Worker-0: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 11:19:01,767 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 11:26:59,220 [Worker-22: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 11:26:59,221 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 11:26:59,225 [Worker-22: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 11:26:59,226 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 11:29:17,958 [Worker-13: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 11:29:17,959 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 11:29:17,961 [Worker-13: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 11:29:17,961 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 11:30:56,765 [Worker-13: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 11:30:56,765 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 11:30:56,766 [Worker-13: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 11:30:56,767 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 11:31:07,439 [Worker-13: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 11:31:07,440 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 11:31:07,443 [Worker-13: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 11:31:07,444 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 11:32:11,606 [Worker-13: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 11:32:11,606 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 11:32:11,608 [Worker-13: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 11:32:11,610 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 11:32:27,742 [Worker-24: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 11:32:27,742 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 11:32:27,743 [Worker-24: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 11:32:27,744 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 11:32:43,235 [Worker-22: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 11:32:43,235 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 11:32:43,238 [Worker-22: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 11:32:43,238 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 11:49:01,421 [Worker-28: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 11:49:01,421 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 11:49:01,422 [Worker-28: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 11:49:01,423 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 11:50:57,312 [Worker-30: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 11:50:57,312 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 11:50:57,313 [Worker-30: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 11:50:57,314 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 11:52:57,391 [Worker-13: Launching HindiHomeTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 11:52:57,392 [Worker-13: Launching HindiHomeTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 11:52:57,393 [Worker-13: Launching HindiHomeTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 11:52:57,394 [Worker-13: Launching HindiHomeTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 11:54:57,778 [Worker-30: Launching HindiHomeTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 11:54:57,779 [Worker-30: Launching HindiHomeTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 11:54:57,781 [Worker-30: Launching HindiHomeTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 11:54:57,781 [Worker-30: Launching HindiHomeTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 11:59:03,902 [Worker-33: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 11:59:03,903 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 11:59:03,905 [Worker-33: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 11:59:03,906 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 11:59:26,073 [Worker-33: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 11:59:26,073 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 11:59:26,075 [Worker-33: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 11:59:26,075 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 12:11:04,058 [Worker-39: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 12:11:04,076 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 12:11:04,078 [Worker-39: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 12:11:04,079 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 12:11:28,701 [Worker-40: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 12:11:28,701 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 12:11:28,705 [Worker-40: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 12:11:28,706 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 12:11:32,052 [Worker-39: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 12:11:32,053 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 12:11:32,055 [Worker-39: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 12:11:32,056 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 12:11:50,506 [Worker-34: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 12:11:50,507 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 12:11:50,508 [Worker-34: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 12:11:50,508 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 12:12:06,637 [Worker-33: Launching HindiHomeTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 12:12:06,644 [Worker-33: Launching HindiHomeTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 12:12:06,646 [Worker-33: Launching HindiHomeTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 12:12:06,647 [Worker-33: Launching HindiHomeTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 12:14:41,954 [Worker-41: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 12:14:41,954 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 12:14:41,956 [Worker-41: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 12:14:41,957 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 12:15:08,081 [Worker-38: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 12:15:08,081 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 12:15:08,083 [Worker-38: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 12:15:08,083 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 12:17:29,407 [Worker-41: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 12:17:29,407 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 12:17:29,409 [Worker-41: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 12:17:29,410 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 12:19:27,272 [Worker-40: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 12:19:27,272 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 12:19:27,273 [Worker-40: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 12:19:27,273 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 12:23:20,515 [Worker-34: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 12:23:20,516 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 12:23:20,517 [Worker-34: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 12:23:20,518 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 12:23:28,594 [Worker-38: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 12:23:28,595 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 12:23:28,596 [Worker-38: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 12:23:28,596 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 12:23:34,198 [Worker-40: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 12:23:34,199 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 12:23:34,200 [Worker-40: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 12:23:34,200 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 12:27:21,399 [Worker-43: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 12:27:21,399 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 12:27:21,400 [Worker-43: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 12:27:21,401 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 12:31:21,314 [Worker-44: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 12:31:21,315 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 12:31:21,316 [Worker-44: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 12:31:21,316 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 12:33:52,085 [Worker-44: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 12:33:52,085 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 12:33:52,086 [Worker-44: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 12:33:52,086 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 12:34:06,827 [Worker-38: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 12:34:06,827 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 12:34:06,828 [Worker-38: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 12:34:06,828 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 12:38:16,023 [Worker-44: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 12:38:16,024 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 12:38:16,025 [Worker-44: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 12:38:16,025 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 12:39:43,638 [Worker-49: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 12:39:43,639 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 12:39:43,640 [Worker-49: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 12:39:43,641 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 12:53:17,474 [Worker-52: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 12:53:17,475 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 12:53:17,476 [Worker-52: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 12:53:17,476 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 14:09:14,593 [Worker-72: Launching HindiHomeTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 14:09:14,594 [Worker-72: Launching HindiHomeTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 14:09:14,595 [Worker-72: Launching HindiHomeTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 14:09:14,596 [Worker-72: Launching HindiHomeTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 14:35:01,668 [Worker-94: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 14:35:01,688 [Worker-94: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 14:35:01,689 [Worker-94: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 14:35:01,690 [Worker-94: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 14:35:43,309 [Worker-95: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 14:35:43,310 [Worker-95: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 14:35:43,311 [Worker-95: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 14:35:43,311 [Worker-95: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 14:36:25,887 [Worker-94: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 14:36:25,887 [Worker-94: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 14:36:25,888 [Worker-94: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 14:36:25,888 [Worker-94: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 15:27:46,344 [Worker-96: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 15:27:46,345 [Worker-96: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 15:27:46,346 [Worker-96: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 15:27:46,347 [Worker-96: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 15:38:09,929 [Worker-105: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 15:38:09,929 [Worker-105: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 15:38:09,930 [Worker-105: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 15:38:09,930 [Worker-105: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 15:43:02,202 [Worker-104: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 15:43:02,202 [Worker-104: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 15:43:02,203 [Worker-104: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 15:43:02,203 [Worker-104: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 15:46:03,780 [Worker-105: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 15:46:03,780 [Worker-105: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 15:46:03,784 [Worker-105: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 15:46:03,784 [Worker-105: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 15:49:03,950 [Worker-107: Launching HindiHomeTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 15:49:03,951 [Worker-107: Launching HindiHomeTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 15:49:03,953 [Worker-107: Launching HindiHomeTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 15:49:03,954 [Worker-107: Launching HindiHomeTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 15:51:08,408 [Worker-108: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 15:51:08,409 [Worker-108: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 15:51:08,410 [Worker-108: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 15:51:08,411 [Worker-108: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 15:51:17,163 [Worker-104: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 15:51:17,164 [Worker-104: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 15:51:17,165 [Worker-104: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 15:51:17,166 [Worker-104: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 15:57:21,582 [Worker-104: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 15:57:21,585 [Worker-104: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 15:57:21,587 [Worker-104: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 15:57:21,587 [Worker-104: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 16:01:40,487 [Worker-112: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 16:01:40,488 [Worker-112: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 16:01:40,489 [Worker-112: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 16:01:40,492 [Worker-112: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 16:03:20,496 [Worker-113: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 16:03:20,497 [Worker-113: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 16:03:20,498 [Worker-113: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 16:03:20,499 [Worker-113: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 16:03:59,670 [Worker-111: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 16:03:59,671 [Worker-111: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 16:03:59,672 [Worker-111: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 16:03:59,673 [Worker-111: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 16:08:23,625 [Worker-114: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 16:08:23,625 [Worker-114: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 16:08:23,626 [Worker-114: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 16:08:23,627 [Worker-114: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 16:08:49,486 [Worker-111: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 16:08:49,486 [Worker-111: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 16:08:49,487 [Worker-111: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 16:08:49,487 [Worker-111: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 16:08:59,406 [Worker-104: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 16:08:59,407 [Worker-104: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 16:08:59,409 [Worker-104: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 16:08:59,410 [Worker-104: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 16:09:04,797 [Worker-111: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 16:09:04,801 [Worker-111: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 16:09:04,804 [Worker-111: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 16:09:04,804 [Worker-111: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 16:10:11,474 [Worker-111: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 16:10:11,474 [Worker-111: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 16:10:11,475 [Worker-111: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 16:10:11,476 [Worker-111: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 16:10:18,108 [Worker-106: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 16:10:18,109 [Worker-106: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 16:10:18,113 [Worker-106: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 16:10:18,114 [Worker-106: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 16:10:23,063 [Worker-113: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 16:10:23,063 [Worker-113: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 16:10:23,064 [Worker-113: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 16:10:23,065 [Worker-113: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 16:10:38,280 [Worker-111: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 16:10:38,281 [Worker-111: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 16:10:38,283 [Worker-111: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 16:10:38,284 [Worker-111: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 16:11:09,670 [Worker-114: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 16:11:09,671 [Worker-114: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 16:11:09,672 [Worker-114: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 16:11:09,672 [Worker-114: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 16:40:20,446 [Worker-121: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 16:40:20,447 [Worker-121: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 16:40:20,448 [Worker-121: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 16:40:20,448 [Worker-121: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 16:41:15,199 [Worker-118: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 16:41:15,202 [Worker-118: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 16:41:15,204 [Worker-118: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 16:41:15,205 [Worker-118: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 16:43:14,362 [Worker-122: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 16:43:14,363 [Worker-122: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 16:43:14,364 [Worker-122: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 16:43:14,365 [Worker-122: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 16:43:59,214 [Worker-111: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 16:43:59,215 [Worker-111: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 16:43:59,216 [Worker-111: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 16:43:59,216 [Worker-111: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 16:44:11,146 [Worker-118: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 16:44:11,147 [Worker-118: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 16:44:11,147 [Worker-118: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 16:44:11,148 [Worker-118: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources
+2018-09-18 16:44:22,244 [Worker-118: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 16:44:22,245 [Worker-118: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/main/resources
+2018-09-18 16:44:22,246 [Worker-118: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-18 16:44:22,247 [Worker-118: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/bluepi/eclipse-workspace/abp_news/src/test/resources

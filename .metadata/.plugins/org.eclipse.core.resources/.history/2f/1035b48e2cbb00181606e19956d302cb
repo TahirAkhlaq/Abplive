@@ -1,0 +1,198 @@
+/**
+ * 
+ */
+package com.abp_news.pom;
+
+import static org.testng.Assert.assertEquals;
+
+import java.net.HttpURLConnection;
+import java.net.URL;
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Reporter;
+
+/**
+ * @author bluepi
+ *
+ */
+public class HindiHomePage extends menupage {
+
+	@FindBy(how = How.XPATH, using = "//a[contains(text(),'हिन्दी')]")
+	private WebElement hindiBtn;
+	@FindBy(how = How.XPATH, using = "//a[contains(text(),'English')]")
+	private WebElement EngBtn;
+	@FindBy(how = How.XPATH, using = "//h2[@class='padDiff pad010 h2Style']")
+	private WebElement newsHeading;
+	@FindBy(how = How.XPATH, using = "//img[@class='home initial loading']")
+	private WebElement newsImage;
+	@FindBy(how = How.XPATH, using = "//div[@class='storyBox no_b hp_large']")
+	private WebElement newsImage1;
+	@FindBy(how = How.XPATH, using = "//div[@id='google_ads_iframe_/2599136/Hindi_HP_728x90_0__container__']")
+	private WebElement addsImage;
+	@FindBy(how = How.XPATH, using = "//div[@id='div-gpt-ad-1480922127769-1']")
+	private WebElement RHSaddsImage;
+	@FindBy(how = How.ID, using = "div-gpt-ad-1480922127769-0")
+	private WebElement headerAdsImage;
+	@FindBy(how = How.ID, using = "google_ads_iframe_/2599136/Hindi_HP_728x90_0__container__")
+	private WebElement headerAdsImage2;
+	@FindBy(how = How.ID, using = "div-gpt-ad-1531816689988-0")
+	private WebElement lhsAds;
+	@FindBy(how = How.XPATH, using = "//iframe[@id='google_ads_iframe_/2599136/Hindi_HP_Story_0']")
+	private WebElement middleSectionAds;
+	@FindBy(how = How.XPATH, using = "//iframe[@id='google_ads_iframe_/2599136/Hindi_HP_Medium_0']")
+	private WebElement RhsDownSideAds;
+	@FindBy(how = How.XPATH, using = "(//a[@class='newsLink col-4 padL0 padR0 amp_re'])[1]")
+	private WebElement middleSectionSubNews;
+	
+	public HindiHomePage(WebDriver driver) {
+		super();
+		PageFactory.initElements(driver, this);
+	}
+
+	
+	//This Method Will Extract the size of images and verify the size
+	public void hindihomepageVerify(WebDriver driver) throws InterruptedException {
+		Reporter.log("Image Size verification method is running on Hindi ", true);
+		hindiBtn.click();
+		while (true) {
+			if (newsImage.isDisplayed()) {
+				Reporter.log("Element found", true);
+				int height = headerAdsImage.getSize().getHeight();
+				int width = headerAdsImage.getSize().getWidth();
+				Reporter.log("Header adds Image Height is=========> " + height + "Px" + " Image Width is======> "
+						+ width + "Px", true);
+				//assertEquals(height, 90);assertEquals(width, 970);
+				break;
+			} 
+			else if (newsImage1.isDisplayed()) {
+				Reporter.log("Ele found", true);
+				int height1 = headerAdsImage2.getSize().getHeight();
+				int width1 = headerAdsImage2.getSize().getWidth();
+				Reporter.log("Header adds Image Height is==========> " + height1 + "Px" + " Image Width is======> "
+						+ width1 + "Px", true);
+				break;
+			} 
+			
+			else {
+				Reporter.log("page refresh", true);
+				driver.navigate().refresh();
+			}
+		
+		}
+
+		
+		/*while(true) {	
+			
+			
+			if(newsImage.isDisplayed())
+			 {
+				Reporter.log("clickied on 1st Link",true);
+				int h2 = newsImage.getSize().getHeight();
+				int w2 = newsImage.getSize().getWidth();
+				Reporter.log("News Image Height is============> " + h2 + " Image Width is======> " + w2, true);
+				break;
+			}
+			
+			else  if(newsImage1.isDisplayed()) {
+				Reporter.log("clickied on 2nd Link",true);
+				int nIH = newsImage1.getSize().getHeight();
+				int nTW = newsImage1.getSize().getWidth();
+				Reporter.log("News Image Height is============> " + nIH + " Image Width is======> " + nTW, true);
+				break;
+							}
+			else {
+				Reporter.log("Page Refreh becuse news Image not found",true);
+				driver.navigate().refresh();
+				}
+			}*/
+
+	/*	while (true) {
+			if (news.isDisplayed()) {
+				Reporter.log("Element found", true);
+				int height = headerAdsImage.getSize().getHeight();
+				int width = headerAdsImage.getSize().getWidth();
+				Reporter.log("Header adds Image Height is=========> " + height + "Px" + " Image Width is======> "
+						+ width + "Px", true);
+				assertEquals(height, 90);assertEquals(width, 970);
+				break;
+			} 
+			else if (headerAdsImage2.isDisplayed()) {
+				Reporter.log("Ele found", true);
+				int height1 = headerAdsImage2.getSize().getHeight();
+				int width1 = headerAdsImage2.getSize().getWidth();
+				Reporter.log("Header adds Image Height is==========> " + height1 + "Px" + " Image Width is======> "
+						+ width1 + "Px", true);
+				break;
+			} 
+			
+			else {
+				Reporter.log("page refresh", true);
+				driver.navigate().refresh();
+			}
+		
+		}
+
+	
+		int h1 = RHSaddsImage.getSize().getHeight();
+		int w1 = RHSaddsImage.getSize().getWidth();
+		Reporter.log("RHS screen ads Image Height is=====> " + h1 + " Image Width is======> " + w1, true);
+		if(h1==280) {
+		assertEquals(h1, 280);assertEquals(w1, 336);
+	}
+		else {
+			assertEquals(h1, 250);
+		}
+	
+		
+	
+		
+		
+	
+		int w3 = lhsAds.getSize().getWidth();
+		int h3 = lhsAds.getSize().getHeight();
+		Reporter.log("LHS ads Height is==================> " + h3 + " Image Width is======> " + w3, true);
+
+		
+		int w4 = middleSectionAds.getSize().getWidth();
+		int h4 = middleSectionAds.getSize().getHeight();
+		Reporter.log("Middle Section ads Height is=======> " + h4 + " Image Width is======> " + w4, true);
+
+		int w5 = RhsDownSideAds.getSize().getWidth();
+		int h5 = RhsDownSideAds.getSize().getHeight();
+		Reporter.log("RHS downside ads Height is=========> " + h5 + " Image Width is======> " + w5, true);
+		
+		int w6 = middleSectionSubNews.getSize().getWidth();
+		int h6 = middleSectionSubNews.getSize().getHeight();
+		Reporter.log("Middle Section Sub News Height is====>" +h6 +"Image Width is =========> "+ w6, true);
+		if(h6==220) {
+		assertEquals(h6, 220);
+		assertEquals(w6, 292);
+					}
+		else {
+			assertEquals(h6, 204);
+			assertEquals(w6, 292);
+		   	}
+
+	
+	
+}
+	
+*/
+
+
+
+
+
+
+	}
+
+
+}

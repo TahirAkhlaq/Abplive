@@ -3,6 +3,12 @@
  */
 package com.abp_news.pom;
 
+import static org.testng.Assert.assertEquals;
+
+import java.net.HttpURLConnection;
+import java.net.URL;
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -21,81 +27,140 @@ public class HindiHomePage extends menupage {
 
 	@FindBy(how = How.XPATH, using = "//a[contains(text(),'हिन्दी')]")
 	private WebElement hindiBtn;
+	@FindBy(how = How.XPATH, using = "//a[contains(text(),'English')]")
+	private WebElement EngBtn;
 	@FindBy(how = How.XPATH, using = "//h2[@class='padDiff pad010 h2Style']")
 	private WebElement newsHeading;
 	@FindBy(how = How.XPATH, using = "//img[@class='home initial loading']")
 	private WebElement newsImage;
+	@FindBy(how = How.XPATH, using = "//div[@class='storyBox no_b hp_large']")
+	private WebElement newsImage1;
 	@FindBy(how = How.XPATH, using = "//div[@id='google_ads_iframe_/2599136/Hindi_HP_728x90_0__container__']")
 	private WebElement addsImage;
-	@FindBy(how = How.XPATH, using = "//body[1]/div[1]/div[1]")
+	@FindBy(how = How.XPATH, using = "//div[@id='div-gpt-ad-1480922127769-1']")
 	private WebElement RHSaddsImage;
-
+	@FindBy(how = How.ID, using = "div-gpt-ad-1480922127769-0")
+	private WebElement headerAdsImage;
+	@FindBy(how = How.ID, using = "google_ads_iframe_/2599136/Hindi_HP_728x90_0__container__")
+	private WebElement headerAdsImage2;
+	@FindBy(how = How.ID, using = "div-gpt-ad-1531816689988-0")
+	private WebElement lhsAds;
+	@FindBy(how = How.XPATH, using = "//iframe[@id='google_ads_iframe_/2599136/Hindi_HP_Story_0']")
+	private WebElement middleSectionAds;
+	@FindBy(how = How.XPATH, using = "//iframe[@id='google_ads_iframe_/2599136/Hindi_HP_Medium_0']")
+	private WebElement RhsDownSideAds;
+	@FindBy(how = How.XPATH, using = "(//a[@class='newsLink col-4 padL0 padR0 amp_re'])[1]")
+	private WebElement middleSectionSubNews;
+	
 	public HindiHomePage(WebDriver driver) {
 		super();
 		PageFactory.initElements(driver, this);
 	}
 
+	
+	//This Method Will Extract the size of images and verify the size
 	public void hindihomepageVerify(WebDriver driver) throws InterruptedException {
-		hindiBtn.click();
-		// Thread.sleep(1000);div-gpt-ad-1480922127769-1
-		WebDriverWait wait = new WebDriverWait(driver, 20);
-
-		WebElement element1 = wait.until(ExpectedConditions.visibilityOfElementLocated(
-				By.id("div-gpt-ad-1480314619440-0")));
-		int height = element1.getSize().getHeight();
-		int width = element1.getSize().getWidth();
-		Reporter.log("Header adds Image Height is========> " + height + " Image Width is======> " + width, true);
 		
-		WebElement element = wait.until(
-				ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@id='div-gpt-ad-1480922127769-1']")));
+		Reporter.log("Image Size verification method is running on Hindi ", true);
+		hindiBtn.click();	
+		while(true) {	
+			
+			
+		
 
-		int h1 = element.getSize().getHeight();
-		int w1 = element.getSize().getWidth();
-		Reporter.log("RHS screen ads Image Height is=====> " + h1 + " Image Width is======> " + w1, true);
-		Thread.sleep(1000);
-		WebElement newsImage1 = wait
-				.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//img[@class='home initial loading']")));
-		if(newsImage1.isDisplayed()) {
+		while (true) {
+			if (headerAdsImage.isDisplayed()) {
+				Reporter.log("Element found", true);
+				int height = headerAdsImage.getSize().getHeight();
+				int width = headerAdsImage.getSize().getWidth();
+				Reporter.log("Header adds Image Height is=========> " + height + "Px" + " Image Width is======> "
+						+ width + "Px", true);
+				assertEquals(height, 90);assertEquals(width, 970);
+				break;
+			} 
+			else if (headerAdsImage2.isDisplayed()) {
+				Reporter.log("Ele found", true);
+				int height1 = headerAdsImage2.getSize().getHeight();
+				int width1 = headerAdsImage2.getSize().getWidth();
+				Reporter.log("Header adds Image Height is==========> " + height1 + "Px" + " Image Width is======> "
+						+ width1 + "Px", true);
+				break;
+			} 
+			
+			else {
+				Reporter.log("page refresh", true);
+				driver.navigate().refresh();
+			}
+		
+		}
+
+		if(newsImage1.isDisplayed())
+		 {
+			Reporter.log("clickied on 1st Link",true);
 			int h2 = newsImage1.getSize().getHeight();
 			int w2 = newsImage1.getSize().getWidth();
-			Reporter.log("News Image Height is===============> " + h2 + " Image Width is======> " + w2, true);
-			
+			Reporter.log("News Image Height is============> " + h2 + " Image Width is======> " + w2, true);
+			break;
+		}
+		
+	/*	else  if(newsImage.isDisplayed()) {
+			Reporter.log("clickied on 2nd Link",true);
+			int nIH = newsImage.getSize().getHeight();
+			int nTW = newsImage.getSize().getWidth();
+			Reporter.log("News Image Height is============> " + nIH + " Image Width is======> " + nTW, true);
+			break;
+						}*/
+		else {
+			Reporter.log("Page Refreh becuse news Image not found",true);
+			driver.navigate().refresh();
+			}
 		}
 	
-
-		// driver.switchTo().frame("google_ads_iframe_/2599136/Hindi_HP_Inhouse_0");
-		WebElement addImage2 = wait
-				.until(ExpectedConditions.visibilityOfElementLocated(By.id("div-gpt-ad-1531816689988-0")));
-		// xpath("//iframe[@id='google_ads_iframe_/2599136/Hindi_HP_Inhouse_0']")));
-		//
-		// div-gpt-ad-1531816689988-0
-		Thread.sleep(2000);
-		int w3 = addImage2.getSize().getWidth();
-		Thread.sleep(1000);
-		int h3 = addImage2.getSize().getHeight();
+		int h1 = RHSaddsImage.getSize().getHeight();
+		int w1 = RHSaddsImage.getSize().getWidth();
+		Reporter.log("RHS screen ads Image Height is=====> " + h1 + " Image Width is======> " + w1, true);
+		if(h1==280) {
+		assertEquals(h1, 280);assertEquals(w1, 336);
+	}
+		else {
+			assertEquals(h1, 250);
+		}
+	
+		int w3 = lhsAds.getSize().getWidth();
+		int h3 = lhsAds.getSize().getHeight();
 		Reporter.log("LHS ads Height is==================> " + h3 + " Image Width is======> " + w3, true);
 
-		WebElement addImage3 = wait.until(
-				ExpectedConditions.visibilityOfElementLocated(By.id("google_ads_iframe_/2599136/Hindi_HP_Story_0")));
-		// xpath("//div[@id='google_ads_iframe_/2599136/Hindi_HP_Story_0__container__']")));
-		Thread.sleep(2000);
-		int w4 = addImage3.getSize().getWidth();
-		Thread.sleep(1000);
-		int h4 = addImage3.getSize().getHeight();
+		
+		int w4 = middleSectionAds.getSize().getWidth();
+		int h4 = middleSectionAds.getSize().getHeight();
 		Reporter.log("Middle Section ads Height is=======> " + h4 + " Image Width is======> " + w4, true);
-		Thread.sleep(2000);
-		WebElement addImage4 = wait.until(
-				ExpectedConditions.visibilityOfElementLocated(By.id("google_ads_iframe_/2599136/Hindi_HP_Medium_0")));
-		//
-		// google_ads_iframe_/2599136/Hindi_HP_Medium_0
-		Thread.sleep(2000);
-		int w5 = addImage4.getSize().getWidth();
-		Thread.sleep(1000);
-		int h5 = addImage4.getSize().getHeight();
-		Reporter.log("RHS downside ads Height is==========> " + h5 + " Image Width is======> " + w5, true);
 
-		// body[1]/div[1]/div[1]
-		// body[@data-gr-c-s-loaded='true']
+		int w5 = RhsDownSideAds.getSize().getWidth();
+		int h5 = RhsDownSideAds.getSize().getHeight();
+		Reporter.log("RHS downside ads Height is=========> " + h5 + " Image Width is======> " + w5, true);
+		
+		int w6 = middleSectionSubNews.getSize().getWidth();
+		int h6 = middleSectionSubNews.getSize().getHeight();
+		Reporter.log("Middle Section Sub News Height is====>" +h6 +"Image Width is =========> "+ w6, true);
+		if(h6==220) {
+		assertEquals(h6, 220);
+		assertEquals(w6, 292);
+					}
+		else {
+			assertEquals(h6, 204);
+			assertEquals(w6, 292);
+		   	}
 
-	}
+	
+	
+}
+	
+
+
+
+
+
+
+	
+
 }

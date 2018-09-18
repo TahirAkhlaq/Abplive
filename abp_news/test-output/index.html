@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,8 +37,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
-              <span class="suite-name border-passed">Default suite</span>
+            <a href="#" class="navigator-link" panel-name="suite-Main_Test_Suite">
+              <span class="suite-name border-failed">Main Test Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -48,37 +48,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>testng-customsuite.xml</span>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Main_Test_Suite">
+                    <span>testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
-                    <span class="test-stats">1 test</span>
+                  <a href="#" class="navigator-link " panel-name="testlist-Main_Test_Suite">
+                    <span class="test-stats">2 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="group-Main_Test_Suite">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="times-Main_Test_Suite">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="reporter-Main_Test_Suite">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Main_Test_Suite">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="chronological-Main_Test_Suite">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -91,21 +91,45 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Main_Test_Suite" class="hide-methods failed suite-Main_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-Main_Test_Suite -->
+                      <a href="#" panel-name="suite-Main_Test_Suite" class="show-methods failed suite-Main_Test_Suite"> (show)</a> <!-- show-methods failed suite-Main_Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Main_Test_Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Main_Test_Suite" title="com.abp_news.scripts.HindiHomeTest" hash-for-method="image">image</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Main_Test_Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Main_Test_Suite" class="hide-methods passed suite-Main_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-Main_Test_Suite -->
+                      <a href="#" panel-name="suite-Main_Test_Suite" class="show-methods passed suite-Main_Test_Suite"> (show)</a> <!-- show-methods passed suite-Main_Test_Suite -->
                     </span>
-                    <div class="method-list-content passed suite-Default_suite">
+                    <div class="method-list-content passed suite-Main_Test_Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.abp_news.scripts.hometest" hash-for-method="hindihomepageVerify">hindihomepageVerify</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Main_Test_Suite" title="com.abp_news.scripts.hometest" hash-for-method="homePageImageVerify">homePageImageVerify</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Default_suite -->
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Main_Test_Suite" title="com.abp_news.scripts.hometest" hash-for-method="homePageImageVerify">homePageImageVerify</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Main_Test_Suite" title="com.abp_news.scripts.HindiHomeTest" hash-for-method="image">image</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Main_Test_Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -116,8 +140,47 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-passed">
+        <div panel-name="suite-Main_Test_Suite" class="panel Main_Test_Suite">
+          <div class="suite-Main_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.abp_news.scripts.HindiHomeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="image">
+                  </a> <!-- image -->
+                  <span class="method-name">image</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [204] but found [190]
+	at com.abp_news.pom.HindiHomePage.hindihomepageVerify(HindiHomePage.java:150)
+	at com.abp_news.scripts.HindiHomeTest.image(HindiHomeTest.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Main_Test_Suite-class-failed -->
+          <div class="suite-Main_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.abp_news.scripts.HindiHomeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="image">
+                  </a> <!-- image -->
+                  <span class="method-name">image</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Main_Test_Suite-class-passed -->
+          <div class="suite-Main_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
               <span class="class-name">com.abp_news.scripts.hometest</span>
@@ -125,105 +188,562 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="hindihomepageVerify">
-                  </a> <!-- hindihomepageVerify -->
-                  <span class="method-name">hindihomepageVerify</span>
+                  <a name="homePageImageVerify">
+                  </a> <!-- homePageImageVerify -->
+                  <span class="method-name">homePageImageVerify</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="homePageImageVerify">
+                  </a> <!-- homePageImageVerify -->
+                  <span class="method-name">homePageImageVerify</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-passed -->
-        </div> <!-- panel Default_suite -->
-        <div panel-name="test-xml-Default_suite" class="panel">
+          </div> <!-- suite-Main_Test_Suite-class-passed -->
+        </div> <!-- panel Main_Test_Suite -->
+        <div panel-name="test-xml-Main_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/tmp/testng-eclipse--661167730/testng-customsuite.xml</span>
+            <span class="header-content">/home/bluepi/eclipse-workspace/abp_news/testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Main Test Suite&quot; parallel=&quot;tests&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.abp_news.generic.MyTestNGListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;FirefoxTestCases&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.abp_news.scripts.hometest&quot;/&gt;
+      &lt;class name=&quot;com.abp_news.scripts.HindiHomeTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Default test --&gt;
-&lt;/suite&gt; &lt;!-- Default suite --&gt;
+  &lt;/test&gt; &lt;!-- FirefoxTestCases --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;ChromeTestCases&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.abp_news.scripts.hometest&quot;/&gt;
+      &lt;class name=&quot;com.abp_news.scripts.HindiHomeTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ChromeTestCases --&gt;
+&lt;/suite&gt; &lt;!-- Main Test Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Default_suite" class="panel">
+        <div panel-name="testlist-Main_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Default suite</span>
+            <span class="header-content">Tests for Main Test Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Default test (1 class)</span>
+                <span class="test-name">FirefoxTestCases (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">ChromeTestCases (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Default_suite" class="panel">
+        <div panel-name="group-Main_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Default suite</span>
+            <span class="header-content">Groups for Main Test Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Default_suite" class="panel">
+        <div panel-name="times-Main_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Default suite</span>
+            <span class="header-content">Times for Main Test Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Default_suite');
-function tableData_Default_suite() {
+suiteTableInitFunctions.push('tableData_Main_Test_Suite');
+function tableData_Main_Test_Suite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'hindihomepageVerify')
-data.setCell(0, 2, 'com.abp_news.scripts.hometest')
-data.setCell(0, 3, 7384);
-window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+data.setCell(0, 1, 'image')
+data.setCell(0, 2, 'com.abp_news.scripts.HindiHomeTest')
+data.setCell(0, 3, 391805);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'homePageImageVerify')
+data.setCell(1, 2, 'com.abp_news.scripts.hometest')
+data.setCell(1, 3, 182547);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'homePageImageVerify')
+data.setCell(2, 2, 'com.abp_news.scripts.hometest')
+data.setCell(2, 3, 15795);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'image')
+data.setCell(3, 2, 'com.abp_news.scripts.HindiHomeTest')
+data.setCell(3, 3, 6600);
+window.suiteTableData['Main_Test_Suite']= { tableData: data, tableDiv: 'times-div-Main_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 7 seconds</span>
-              <div id="times-div-Default_suite">
-              </div> <!-- times-div-Default_suite -->
+              <span class="suite-total-time">Total running time: 9 minutes</span>
+              <div id="times-div-Main_Test_Suite">
+              </div> <!-- times-div-Main_Test_Suite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Default_suite" class="panel">
+        <div panel-name="reporter-Main_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Default suite</span>
+            <span class="header-content">Reporter output for Main Test Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">hindihomepageVerify</span>
+              <span class="reporter-method-name">homePageImageVerify</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Header adds Image Height is==========> 90Px Image Width is======> 970Px</span>
+                <span class="reporter-method-output">Home Page Image verification method is running now</span>
+                <span class="reporter-method-output">page refresh</span>
+                <span class="reporter-method-output">Home Page Image verification method is running now</span>
+                <span class="reporter-method-output">Header adds Image Height is==========> 90Px Image Width is======> 728Px</span>
                 <span class="reporter-method-output">RHS screen ads Image Height is=======> 250Px Image Width is======> 300Px</span>
-                <span class="reporter-method-output">News Image Height is=================> 400Px Image Width is======> 575Px</span>
+                <span class="reporter-method-output">News Image Height is=================> 371Px Image Width is======> 575Px</span>
                 <span class="reporter-method-output">Middle section ads Height is=========> 250Px Image Width is======> 300Px</span>
                 <span class="reporter-method-output">RHS downside ads Height is===========> 600Px Image Width is========> 300Px</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">image</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Image Size verification method is running on Hindi </span>
+                <span class="reporter-method-output">Ele found</span>
+                <span class="reporter-method-output">Header adds Image Height is==========> 90Px Image Width is======> 970Px</span>
+                <span class="reporter-method-output">clickied on 1st Link</span>
+                <span class="reporter-method-output">News Image Height is============> 398 Image Width is======> 600</span>
+                <span class="reporter-method-output">RHS screen ads Image Height is=====> 280 Image Width is======> 336</span>
+                <span class="reporter-method-output">LHS ads Height is==================> 50 Image Width is======> 300</span>
+                <span class="reporter-method-output">Middle Section ads Height is=======> 250 Image Width is======> 300</span>
+                <span class="reporter-method-output">RHS downside ads Height is=========> 600 Image Width is======> 300</span>
+                <span class="reporter-method-output">Middle Section Sub News Height is====>190Image Width is =========> 292</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">homePageImageVerify</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Home Page Image verification method is running now</span>
+                <span class="reporter-method-output">page refresh</span>
+                <span class="reporter-method-output">Home Page Image verification method is running now</span>
+                <span class="reporter-method-output">Header adds Image Height is==========> 90Px Image Width is======> 970Px</span>
+                <span class="reporter-method-output">RHS screen ads Image Height is=======> 250Px Image Width is======> 300Px</span>
+                <span class="reporter-method-output">News Image Height is=================> 371Px Image Width is======> 575Px</span>
+                <span class="reporter-method-output">Middle section ads Height is=========> 250Px Image Width is======> 300Px</span>
+                <span class="reporter-method-output">RHS downside ads Height is===========> 250Px Image Width is========> 300Px</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">image</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Image Size verification method is running on Hindi </span>
+                <span class="reporter-method-output">Element found</span>
+                <span class="reporter-method-output">Header adds Image Height is=========> 90Px Image Width is======> 970Px</span>
+                <span class="reporter-method-output">clickied on 1st Link</span>
+                <span class="reporter-method-output">News Image Height is============> 398 Image Width is======> 600</span>
+                <span class="reporter-method-output">RHS screen ads Image Height is=====> 280 Image Width is======> 336</span>
+                <span class="reporter-method-output">LHS ads Height is==================> 50 Image Width is======> 320</span>
+                <span class="reporter-method-output">Middle Section ads Height is=======> 250 Image Width is======> 300</span>
+                <span class="reporter-method-output">RHS downside ads Height is=========> 250 Image Width is======> 300</span>
+                <span class="reporter-method-output">Middle Section Sub News Height is====>204Image Width is =========> 292</span>
+                <span class="reporter-method-output">Total links are 378</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/ - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/videos - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/photo-gallery - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/live-tv - OK</span>
+                <span class="reporter-method-output">https://facebook.com/abpnews - OK</span>
+                <span class="reporter-method-output">https://twitter.com/abpnewshindi - OK</span>
+                <span class="reporter-method-output">https://youtube.com/abpnewstv - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/rss - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/ - OK</span>
+                <span class="reporter-method-output">https://www.abplive.in/ - OK</span>
+                <span class="reporter-method-output">https://abpananda.abplive.in/ - OK</span>
+                <span class="reporter-method-output">https://abpmajha.abplive.in/ - OK</span>
+                <span class="reporter-method-output">https://abpsanjha.abplive.in/ - OK</span>
+                <span class="reporter-method-output">https://abpasmita.abplive.in/ - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/live-tv - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/india-news - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/world-news - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/sports - OK</span>
+                <span class="reporter-method-output">https://www.wahcricket.com/?utm_source=header&utm_campaign=ipltab&utm_medium=abpnews - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/bollywood - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/television - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/bihar-news - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/gadgets - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/lok-sabha-election - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/business - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/uttar-pradesh - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/#menu - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/mp-news - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/crime - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/health-news - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/education-news - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/horoscope - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/lifestyle - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/aam-budget-2018 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/viral-sach - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/auto-news - OK</span>
+                <span class="reporter-method-output">http://coupons.abplive.in/ - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/ajab-gazab - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/graphics - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/vyakti-vishesh - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/ - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/videos - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/videos/watch-full-saas-bahu-aur-saazish-of-18th-september-2018-967763 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/videos/watch-full-saas-bahu-aur-saazish-of-18th-september-2018-967763 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/videos/cancer-survivor-lisa-ray-announce-birth-of-twin-daughters-via-surrogacy-967756 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/videos/cancer-survivor-lisa-ray-announce-birth-of-twin-daughters-via-surrogacy-967756 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/videos/top-news-watch-all-latest-news-of-the-day-in-super-fast-speed-967634 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/videos/top-news-watch-all-latest-news-of-the-day-in-super-fast-speed-967634 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/videos/more-than-1-lakh-people-bcome-homeless-in-assam-as-china-releases-water-in-brahmaputra-river-967620 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/videos/more-than-1-lakh-people-bcome-homeless-in-assam-as-china-releases-water-in-brahmaputra-river-967620 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/videos/harsimrat-kaur-badal-on-navjot-singh-sidhu-i-think-he-is-a-new-agent-that-pakistan-has-found-967617 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/videos/harsimrat-kaur-badal-on-navjot-singh-sidhu-i-think-he-is-a-new-agent-that-pakistan-has-found-967617 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/videos/full-speech-pm-narendra-modi-in-bhu-kashi-has-changed-in-last-4-years-967520 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/videos/full-speech-pm-narendra-modi-in-bhu-kashi-has-changed-in-last-4-years-967520 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/videos - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/bihar-news - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/videos/mahagathbandhan-in-trouble-manjhi-demands-20-seats-967302 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/videos/mahagathbandhan-in-trouble-manjhi-demands-20-seats-967302 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/bihar-news/jitan-ram-manjhi-claims-ham-ready-to-contest-20-lok-sabha-seats-in-bihar-967072 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/bihar-news/jitan-ram-manjhi-claims-ham-ready-to-contest-20-lok-sabha-seats-in-bihar-967072 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/bihar-news/bjp-screening-film-chalo-jeete-hain-based-on-narendra-modi-966822 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/bihar-news/bjp-screening-film-chalo-jeete-hain-based-on-narendra-modi-966822 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/bihar-news/nitish-kumar-reaches-delhi-on-his-three-days-tour-may-meet-amit-shah-over-cabinet-expenction-966951 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/bihar-news/nitish-kumar-reaches-delhi-on-his-three-days-tour-may-meet-amit-shah-over-cabinet-expenction-966951 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/bihar-news/even-hundred-prashant-kishors-cannot-save-nda-from-losing-in-bihar-opposition-966864 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/bihar-news/even-hundred-prashant-kishors-cannot-save-nda-from-losing-in-bihar-opposition-966864 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/bihar-news/irctc-money-laundering-case-court-summons-lalu-yadav-rabri-devi-tejashwi-yadav-as-accused-966828 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/bihar-news/irctc-money-laundering-case-court-summons-lalu-yadav-rabri-devi-tejashwi-yadav-as-accused-966828 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/bihar-news - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/horoscope/18-september-2018-check-daily-rashifal-for-today-tuesday-967169?utm_source=internal&utm_medium=horoscope&utm_campaign=home&utm_term=1 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/horoscope/18-september-check-daily-birthday-rashifal-today-967163?utm_source=internal&utm_medium=horoscope&utm_campaign=home&utm_term=2 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/horoscope/17-september-check-daily-birthday-rashifal-today-966083?utm_source=internal&utm_medium=horoscope&utm_campaign=home&utm_term=3 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/horoscope - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/bollywood/manmarziyaan-movie-review-check-abhishek-bachchan-taapsee-pannu-performance-964200 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/bollywood/manmarziyaan-movie-review-check-abhishek-bachchan-taapsee-pannu-performance-964200 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/bollywood/manmarziyaan-movie-review-check-abhishek-bachchan-taapsee-pannu-performance-964200 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/crime - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/videos/sachi-ghatna-know-how-people-are-being-trapped-in-the-name-of-naagmani-965955 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/videos/sachi-ghatna-know-how-people-are-being-trapped-in-the-name-of-naagmani-965955 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/crime/punjab-23-year-girl-from-amritsar-burns-in-acid-attack-accused-on-run-965095 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/crime/punjab-23-year-girl-from-amritsar-burns-in-acid-attack-accused-on-run-965095 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/india-news/delhi-ashu-maharaj-aka-asif-khan-arrested-in-rape-and-molestation-case-963280 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/india-news/delhi-ashu-maharaj-aka-asif-khan-arrested-in-rape-and-molestation-case-963280 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/india-news/odisha-bank-employee-cut-into-pieces-in-a-matter-of-suspicious-love-affair-piece-found-963071 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/india-news/odisha-bank-employee-cut-into-pieces-in-a-matter-of-suspicious-love-affair-piece-found-963071 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/crime/a-three-family-member-takes-suicide-police-found-note-referring-to-black-magic-962864 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/crime/a-three-family-member-takes-suicide-police-found-note-referring-to-black-magic-962864 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/india-news/delhi-woman-from-ghaziabad-alleges-ashu-maharaj-from-hauz-khas-of-gang-raping-her-and-molesting-her-minor-daughter-962010 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/india-news/delhi-woman-from-ghaziabad-alleges-ashu-maharaj-from-hauz-khas-of-gang-raping-her-and-molesting-her-minor-daughter-962010 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/crime - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/education-news - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/education-news/railway-requirement-board-release-schedule-for-group-d-exam-958850 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/education-news/railway-requirement-board-release-schedule-for-group-d-exam-958850 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/education-news/kendriya-vidyalaya-kvs-recruitment-for-8339-teachers-post-know-applications-process-kvsangathan-nic-in-950767 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/education-news/kendriya-vidyalaya-kvs-recruitment-for-8339-teachers-post-know-applications-process-kvsangathan-nic-in-950767 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/education-news/rrb-group-d-recruitment-and-check-exam-date-admit-card-at-indianrailways-gov-in-950435 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/education-news/rrb-group-d-recruitment-and-check-exam-date-admit-card-at-indianrailways-gov-in-950435 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/education-news/rrb-recruitment-south-indian-railway-413-vacancies-apply-here-for-the-jobs-948136 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/education-news/rrb-recruitment-south-indian-railway-413-vacancies-apply-here-for-the-jobs-948136 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/education-news/rrb-admit-card-check-admit-card-for-rrb-alp-and-technician-post-august-29-exam-948099 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/education-news/rrb-admit-card-check-admit-card-for-rrb-alp-and-technician-post-august-29-exam-948099 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/india-news/cbse-issued-circular-to-de-stress-the-learning-process-at-primary-school-level-947695 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/india-news/cbse-issued-circular-to-de-stress-the-learning-process-at-primary-school-level-947695 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/education-news - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/videos/watch-full-saas-bahu-aur-saazish-of-18th-september-2018-967763 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/videos/cancer-survivor-lisa-ray-announce-birth-of-twin-daughters-via-surrogacy-967756 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/videos/top-news-watch-all-latest-news-of-the-day-in-super-fast-speed-967634 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/videos/more-than-1-lakh-people-bcome-homeless-in-assam-as-china-releases-water-in-brahmaputra-river-967620 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/videos/harsimrat-kaur-badal-on-navjot-singh-sidhu-i-think-he-is-a-new-agent-that-pakistan-has-found-967617 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/india-news/rafael-deal-congress-attack-on-modis-government-asked-many-questions-967666 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/india-news/rafael-deal-congress-attack-on-modis-government-asked-many-questions-967666 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/television - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/television - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/india-news/rahul-gandhi-says-prime-minister-narendra-modis-silence-is-unacceptable-on-rapes-967726 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/india-news/rahul-gandhi-says-prime-minister-narendra-modis-silence-is-unacceptable-on-rapes-967726 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/india-news/pm-narendra-modi-in-varanasi-launched-projects-worth-rs-557-crore-967501 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/india-news/pm-narendra-modi-in-varanasi-launched-projects-worth-rs-557-crore-967501 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/india-news/sidhu-and-harsimrat-kaur-badal-spar-over-kartarpur-corridor-row-967601 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/india-news/sidhu-and-harsimrat-kaur-badal-spar-over-kartarpur-corridor-row-967601 - OK</span>
+                <span class="reporter-method-output">https://www.wahcricket.com//news/india-vs-pakistan-asia-cup-head-to-head-in-last-one-decade-and-asia-cup-64635 - OK</span>
+                <span class="reporter-method-output">https://www.wahcricket.com//news/india-vs-pakistan-asia-cup-head-to-head-in-last-one-decade-and-asia-cup-64635 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/television/bigg-boss-12-jasleens-father-came-in-support-said-my-daughter-has-not-done-anything-wrong-967371 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/television/bigg-boss-12-jasleens-father-came-in-support-said-my-daughter-has-not-done-anything-wrong-967371 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/india-news - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/india-news/once-victim-of-communal-violence-is-today-the-example-of-communal-harmony-967671 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/india-news/once-victim-of-communal-violence-is-today-the-example-of-communal-harmony-967671 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/india-news/illiterate-mlas-earn-more-than-graduate-mlas-in-gujarat-967364 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/india-news/illiterate-mlas-earn-more-than-graduate-mlas-in-gujarat-967364 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/india-news/people-should-know-what-happened-to-netaji-after-the-plane-crash-mamata-banerjee-967560 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/india-news/people-should-know-what-happened-to-netaji-after-the-plane-crash-mamata-banerjee-967560 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/india-news/know-fuel-price-in-your-city-967550 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/india-news/know-fuel-price-in-your-city-967550 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/india-news/time-limit-for-excise-duty-on-us-products-increased-for-the-second-time-967522 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/india-news/time-limit-for-excise-duty-on-us-products-increased-for-the-second-time-967522 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/india-news/even-after-multiple-system-failure-land-at-the-jf-kennedy-airport-in-new-york-967416 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/india-news/even-after-multiple-system-failure-land-at-the-jf-kennedy-airport-in-new-york-967416 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/india-news - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/photo-gallery - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/photo-gallery/emmy-awards-2018-alex-borstein-ditches-bra-while-wearing-bridal-gown-from-1999-wedding-at-emmy-awards-967689 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/photo-gallery/emmy-awards-2018-actress-emilia-clarke-goes-braless-after-game-of-thrones-wins-big-967632 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/uttar-pradesh/some-visuals-of-primeminister-narendra-modi-varansi-visit-967636 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/photo-gallery/two-couple-was-gifted-petrol-by-their-friends-at-their-wedding-on-september-16-967603 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/photo-gallery/happend-these-things-when-you-have-too-much-intimate-with-your-partner-967459 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/photo-gallery/fitness-model-jen-selter-post-new-bikini-photos-on-instagram-967427 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/photo-gallery/ramanand-sagars-grand-daughter-sakhi-chopra-topless-photos-again-goes-viral-967399 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/bollywood - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/bollywood/varun-dhawan-and-anushka-sharma-worked-in-real-textile-factory-for-sui-dhaaga-967715 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/bollywood/varun-dhawan-and-anushka-sharma-worked-in-real-textile-factory-for-sui-dhaaga-967715 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/sports/sourav-ganguly-to-appear-in-durga-puja-music-video-with-top-bengali-actresses-967571 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/sports/sourav-ganguly-to-appear-in-durga-puja-music-video-with-top-bengali-actresses-967571 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/bollywood/ayushmann-khurrana-reveals-his-wife-was-uneasy-on-screen-kiss-with-yami-gatam-in-vicky-gautam-and-other-actress-967512 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/bollywood/ayushmann-khurrana-reveals-his-wife-was-uneasy-on-screen-kiss-with-yami-gatam-in-vicky-gautam-and-other-actress-967512 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/bollywood/manto-movie-review-and-manto-controversial-story-toba-tek-singh-before-film-release-967477 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/bollywood/manto-movie-review-and-manto-controversial-story-toba-tek-singh-before-film-release-967477 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/bollywood/rakhi-sawant-video-on-anup-jalota-and-his-hot-girlfriend-jasleen-waring-to-stay-in-house-of-bigg-boss-12-967367 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/bollywood/rakhi-sawant-video-on-anup-jalota-and-his-hot-girlfriend-jasleen-waring-to-stay-in-house-of-bigg-boss-12-967367 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/bollywood/shabana-azmi-birthday-special-love-story-of-shabana-azmi-with-javed-akhtar-967246 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/bollywood/shabana-azmi-birthday-special-love-story-of-shabana-azmi-with-javed-akhtar-967246 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/bollywood - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/india-news/ajay-maken-resigns-delhi-congress-president-ajay-maken-resigns-citing-health-issues-2-967217 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/india-news/ajay-maken-resigns-delhi-congress-president-ajay-maken-resigns-citing-health-issues-2-967217 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/television/sreesanth-threatens-to-leave-bigg-boss-12-house-967624 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/television/sreesanth-threatens-to-leave-bigg-boss-12-house-967624 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/world-news/strawberrys-market-collapses-in-the-countries-like-australia-and-new-zealand-967635 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/world-news/strawberrys-market-collapses-in-the-countries-like-australia-and-new-zealand-967635 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/gadgets/xiaomi-redmi-note-6-pro-will-launch-with-dual-front-camera-967269 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/gadgets/xiaomi-redmi-note-6-pro-will-launch-with-dual-front-camera-967269 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/television/dipika-will-reply-to-somis-fight-more-drama-coming-in-bigg-boss-12-967508 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/television/dipika-will-reply-to-somis-fight-more-drama-coming-in-bigg-boss-12-967508 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/television/kbc-auto-drivers-son-deepak-won-12-lakhs-rupees-967461 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/television/kbc-auto-drivers-son-deepak-won-12-lakhs-rupees-967461 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/india-news - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/uttar-pradesh - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/uttar-pradesh/a-eight-year-old-minor-girl-raped-in-gonda-967730 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/uttar-pradesh/a-eight-year-old-minor-girl-raped-in-gonda-967730 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/uttar-pradesh/corrupts-alliance-will-take-the-country-towards-instability-yogi-adityanath-967703 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/uttar-pradesh/corrupts-alliance-will-take-the-country-towards-instability-yogi-adityanath-967703 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/uttar-pradesh/gorakhpur-family-members-cut-off-the-private-part-of-daughters-boyfriend-967695 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/uttar-pradesh/gorakhpur-family-members-cut-off-the-private-part-of-daughters-boyfriend-967695 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/uttar-pradesh/kanpur-1000-and-500-rupee-old-currency-notes-found-in-the-pile-967667 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/uttar-pradesh/kanpur-1000-and-500-rupee-old-currency-notes-found-in-the-pile-967667 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/uttar-pradesh/allahabad-doctor-transferred-from-government-hospital-due-to-taking-money-for-operation-967660 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/uttar-pradesh/allahabad-doctor-transferred-from-government-hospital-due-to-taking-money-for-operation-967660 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/uttar-pradesh/some-visuals-of-primeminister-narendra-modi-varansi-visit-967636 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/uttar-pradesh/some-visuals-of-primeminister-narendra-modi-varansi-visit-967636 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/uttar-pradesh - OK</span>
+                <span class="reporter-method-output">https://www.wahcricket.com/?utm_source=homepage&utm_campaign=banner&utm_medium=abpnews - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/world-news - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/world-news/imran-sarkar-will-give-citizenship-to-afghan-bangladeshi-refugees-born-in-pakistan-967474 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/world-news/imran-sarkar-will-give-citizenship-to-afghan-bangladeshi-refugees-born-in-pakistan-967474 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/world-news/syria-russian-plane-with-14-soldiers-disappears-from-radar-967613 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/world-news/syria-russian-plane-with-14-soldiers-disappears-from-radar-967613 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/world-news/pakistan-government-sells-70-cars-to-deal-with-financial-crisis-ready-to-sell-buffalo-and-helicopters-967539 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/world-news/pakistan-government-sells-70-cars-to-deal-with-financial-crisis-ready-to-sell-buffalo-and-helicopters-967539 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/world-news - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/television - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/television/see-the-latest-pics-of-shama-sikandar-12-967694 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/television/see-the-latest-pics-of-shama-sikandar-12-967694 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/television/parul-chauhan-to-tie-the-knot-with-chirag-thakkar-on-12-december-967489 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/television/parul-chauhan-to-tie-the-knot-with-chirag-thakkar-on-12-december-967489 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/television/bigg-boss-12-contestant-failed-to-complete-first-task-967556 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/television/bigg-boss-12-contestant-failed-to-complete-first-task-967556 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/television - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/horoscope/18-september-2018-check-daily-rashifal-for-today-tuesday-967169?utm_source=internal&utm_medium=horoscope&utm_campaign=home&utm_term=1 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/horoscope/18-september-check-daily-birthday-rashifal-today-967163?utm_source=internal&utm_medium=horoscope&utm_campaign=home&utm_term=2 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/horoscope/17-september-check-daily-birthday-rashifal-today-966083?utm_source=internal&utm_medium=horoscope&utm_campaign=home&utm_term=3 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/horoscope - OK</span>
+                <span class="reporter-method-output">https://www.wahcricket.com/news?utm_source=homepage&utm_campaign=cricketwidget&utm_medium=abpnews - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/photo-gallery - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/photo-gallery/emmy-awards-2018-alex-borstein-ditches-bra-while-wearing-bridal-gown-from-1999-wedding-at-emmy-awards-967689 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/photo-gallery/emmy-awards-2018-alex-borstein-ditches-bra-while-wearing-bridal-gown-from-1999-wedding-at-emmy-awards-967689 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/photo-gallery/emmy-awards-2018-actress-emilia-clarke-goes-braless-after-game-of-thrones-wins-big-967632 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/photo-gallery/emmy-awards-2018-actress-emilia-clarke-goes-braless-after-game-of-thrones-wins-big-967632 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/photo-gallery/two-couple-was-gifted-petrol-by-their-friends-at-their-wedding-on-september-16-967603 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/photo-gallery/two-couple-was-gifted-petrol-by-their-friends-at-their-wedding-on-september-16-967603 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/photo-gallery/happend-these-things-when-you-have-too-much-intimate-with-your-partner-967459 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/photo-gallery/happend-these-things-when-you-have-too-much-intimate-with-your-partner-967459 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/photo-gallery - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/photo-gallery - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/#photoCarouselMob - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/#photoCarouselMob - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/photo-gallery/fitness-model-jen-selter-post-new-bikini-photos-on-instagram-967427 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/photo-gallery/ramanand-sagars-grand-daughter-sakhi-chopra-topless-photos-again-goes-viral-967399 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/photo-gallery/sonakshi-sinhas-maldives-hot-photos-from-instagram-967333 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/bollywood/ileana-dcruz-first-time-hand-in-hand-pda-with-boyfriend-andrew-kneeboneare-at-airport-see-romantic-photos-967135 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/photo-gallery/during-this-promotion-of-karanjit-kaur-it-looks-like-sunny-leone-967046 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/bollywood/akshay-kumar-twinkle-khanna-and-daughter-nitara-returnes-from-jaisalmer-967079 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/photo-gallery/arbaaz-khan-girlfriend-giorgia-andriani-share-hot-photos-on-instagram-see-pics-966980 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/gadgets - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/gadgets/top-5-best-camera-phones-in-india-966600 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/gadgets/top-5-best-camera-phones-in-india-966600 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/gadgets/amazon-pay-emi-is-now-available-for-select-mobile-users-heres-how-it-works-966513 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/gadgets/amazon-pay-emi-is-now-available-for-select-mobile-users-heres-how-it-works-966513 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/gadgets/oneplus-to-venture-into-smart-tv-market-considering-connected-human-experience-ceo-pete-lau-966445 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/gadgets/oneplus-to-venture-into-smart-tv-market-considering-connected-human-experience-ceo-pete-lau-966445 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/gadgets - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/business - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/business/americas-trade-war-trump-imposes-import-duty-on-chinas-200-billion-products-967485 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/business/americas-trade-war-trump-imposes-import-duty-on-chinas-200-billion-products-967485 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/business/latest-updates-of-share-market-sensex-and-nifty-2-967451 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/business/latest-updates-of-share-market-sensex-and-nifty-2-967451 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/business/bank-of-baroda-vijaya-bank-and-dena-bank-will-be-merged-as-countrys-third-biggest-bank-966969 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/business/bank-of-baroda-vijaya-bank-and-dena-bank-will-be-merged-as-countrys-third-biggest-bank-966969 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/business - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/bihar-news - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/videos/mahagathbandhan-in-trouble-manjhi-demands-20-seats-967302 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/videos/mahagathbandhan-in-trouble-manjhi-demands-20-seats-967302 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/bihar-news/jitan-ram-manjhi-claims-ham-ready-to-contest-20-lok-sabha-seats-in-bihar-967072 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/bihar-news/jitan-ram-manjhi-claims-ham-ready-to-contest-20-lok-sabha-seats-in-bihar-967072 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/bihar-news/bjp-screening-film-chalo-jeete-hain-based-on-narendra-modi-966822 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/bihar-news/bjp-screening-film-chalo-jeete-hain-based-on-narendra-modi-966822 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/bihar-news - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/mp-news - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/india-news/madhya-pradesh-congress-president-rahul-gandhi-attacks-pm-narendra-modi-in-bhopal-966870 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/india-news/madhya-pradesh-congress-president-rahul-gandhi-attacks-pm-narendra-modi-in-bhopal-966870 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/mp-news/barkatullah-university-will-make-ideal-husband-wife-course-starting-from-next-year-965367 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/mp-news/barkatullah-university-will-make-ideal-husband-wife-course-starting-from-next-year-965367 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/mp-news/indore-girl-killed-by-one-sided-lover-boy-attacks-40-times-from-weapon-965318 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/mp-news/indore-girl-killed-by-one-sided-lover-boy-attacks-40-times-from-weapon-965318 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/mp-news - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/live-tv - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/uttar-pradesh - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/uttar-pradesh/a-eight-year-old-minor-girl-raped-in-gonda-967730 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/uttar-pradesh/a-eight-year-old-minor-girl-raped-in-gonda-967730 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/uttar-pradesh/corrupts-alliance-will-take-the-country-towards-instability-yogi-adityanath-967703 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/uttar-pradesh/corrupts-alliance-will-take-the-country-towards-instability-yogi-adityanath-967703 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/uttar-pradesh/gorakhpur-family-members-cut-off-the-private-part-of-daughters-boyfriend-967695 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/uttar-pradesh/gorakhpur-family-members-cut-off-the-private-part-of-daughters-boyfriend-967695 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/uttar-pradesh/kanpur-1000-and-500-rupee-old-currency-notes-found-in-the-pile-967667 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/uttar-pradesh/kanpur-1000-and-500-rupee-old-currency-notes-found-in-the-pile-967667 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/uttar-pradesh/allahabad-doctor-transferred-from-government-hospital-due-to-taking-money-for-operation-967660 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/uttar-pradesh/allahabad-doctor-transferred-from-government-hospital-due-to-taking-money-for-operation-967660 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/uttar-pradesh/some-visuals-of-primeminister-narendra-modi-varansi-visit-967636 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/uttar-pradesh/some-visuals-of-primeminister-narendra-modi-varansi-visit-967636 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/uttar-pradesh - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/mp-news - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/india-news/madhya-pradesh-congress-president-rahul-gandhi-attacks-pm-narendra-modi-in-bhopal-966870 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/india-news/madhya-pradesh-congress-president-rahul-gandhi-attacks-pm-narendra-modi-in-bhopal-966870 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/mp-news/barkatullah-university-will-make-ideal-husband-wife-course-starting-from-next-year-965367 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/mp-news/barkatullah-university-will-make-ideal-husband-wife-course-starting-from-next-year-965367 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/mp-news/indore-girl-killed-by-one-sided-lover-boy-attacks-40-times-from-weapon-965318 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/mp-news/indore-girl-killed-by-one-sided-lover-boy-attacks-40-times-from-weapon-965318 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/mp-news/madhya-pradesh-12-58-carat-diamond-found-in-agricultural-field-in-panna-964649 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/mp-news/madhya-pradesh-12-58-carat-diamond-found-in-agricultural-field-in-panna-964649 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/india-news/bhopal-rahul-gandhi-to-focus-on-assembly-polls-in-madhya-pradesh-964604 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/india-news/bhopal-rahul-gandhi-to-focus-on-assembly-polls-in-madhya-pradesh-964604 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/videos/pm-modi-to-be-the-first-pm-to-address-dawoodi-bohra-community-964233 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/videos/pm-modi-to-be-the-first-pm-to-address-dawoodi-bohra-community-964233 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/mp-news - OK</span>
+                <span class="reporter-method-output">https://www.wahcricket.com/news?utm_source=homepage&utm_campaign=cricketwidget&utm_medium=abpnews - OK</span>
+                <span class="reporter-method-output">https://www.wahcricket.com/asia-cup-virat-kohli-wishes-team-india-all-the-best-before-asia-cup-64636 - OK</span>
+                <span class="reporter-method-output">https://www.wahcricket.com/asia-cup-virat-kohli-wishes-team-india-all-the-best-before-asia-cup-64636 - OK</span>
+                <span class="reporter-method-output">https://www.wahcricket.com/india-vs-pakistan-asia-cup-head-to-head-in-last-one-decade-and-asia-cup-64635 - OK</span>
+                <span class="reporter-method-output">https://www.wahcricket.com/india-vs-pakistan-asia-cup-head-to-head-in-last-one-decade-and-asia-cup-64635 - OK</span>
+                <span class="reporter-method-output">https://www.wahcricket.com/spinner-james-tredwell-retires-from-all-forms-of-cricket-64633 - OK</span>
+                <span class="reporter-method-output">https://www.wahcricket.com/spinner-james-tredwell-retires-from-all-forms-of-cricket-64633 - OK</span>
+                <span class="reporter-method-output">https://www.wahcricket.com/blog-indians-need-to-show-talent-in-response-to-pakistans-pace-64630 - OK</span>
+                <span class="reporter-method-output">https://www.wahcricket.com/blog-indians-need-to-show-talent-in-response-to-pakistans-pace-64630 - OK</span>
+                <span class="reporter-method-output">https://www.wahcricket.com/yuvraj-named-in-punjab-squad-for-vijay-hazare-trophy-64629 - OK</span>
+                <span class="reporter-method-output">https://www.wahcricket.com/yuvraj-named-in-punjab-squad-for-vijay-hazare-trophy-64629 - OK</span>
+                <span class="reporter-method-output">https://www.wahcricket.com/india-vs-hong-kong-asia-cup-preview-of-india-vs-hong-kong-match-in-asia-cup-2018-64625 - OK</span>
+                <span class="reporter-method-output">https://www.wahcricket.com/india-vs-hong-kong-asia-cup-preview-of-india-vs-hong-kong-match-in-asia-cup-2018-64625 - OK</span>
+                <span class="reporter-method-output">https://www.wahcricket.com/?utm_source=homepage&utm_campaign=viewall&utm_medium=abpnews - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/authors/%E0%A4%B6%E0%A4%BF%E0%A4%B5%E0%A5%87%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A5%8D%E0%A4%B0%20%E0%A4%95%E0%A5%81%E0%A4%AE%E0%A4%BE%E0%A4%B0%20%E0%A4%B8%E0%A4%BF%E0%A4%82%E0%A4%B9,%20%E0%A4%B5%E0%A4%B0%E0%A4%BF%E0%A4%B7%E0%A5%8D%E0%A4%A0%20%E0%A4%96%E0%A5%87%E0%A4%B2%20%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%95%E0%A4%BE%E0%A4%B0 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/blog/blog-indians-need-to-show-talent-in-response-to-pakistans-pace-967488 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/authors/%E0%A4%B6%E0%A4%BF%E0%A4%B5%E0%A5%87%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A5%8D%E0%A4%B0%20%E0%A4%95%E0%A5%81%E0%A4%AE%E0%A4%BE%E0%A4%B0%20%E0%A4%B8%E0%A4%BF%E0%A4%82%E0%A4%B9,%20%E0%A4%B5%E0%A4%B0%E0%A4%BF%E0%A4%B7%E0%A5%8D%E0%A4%A0%20%E0%A4%96%E0%A5%87%E0%A4%B2%20%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%95%E0%A4%BE%E0%A4%B0 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/authors/%E0%A4%AE%E0%A4%BE%E0%A4%B6%E0%A4%BE.%20%E0%A4%B5%E0%A4%B0%E0%A4%BF%E0%A4%B7%E0%A5%8D%E0%A4%A0%20%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%95%E0%A4%BE%E0%A4%B0 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/blog/blog-on-women-suicide-and-happiness-966809 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/authors/%E0%A4%AE%E0%A4%BE%E0%A4%B6%E0%A4%BE.%20%E0%A4%B5%E0%A4%B0%E0%A4%BF%E0%A4%B7%E0%A5%8D%E0%A4%A0%20%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%95%E0%A4%BE%E0%A4%B0 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/authors/%E0%A4%B6%E0%A4%BF%E0%A4%B5%E0%A5%87%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A5%8D%E0%A4%B0%20%E0%A4%95%E0%A5%81%E0%A4%AE%E0%A4%BE%E0%A4%B0%20%E0%A4%B8%E0%A4%BF%E0%A4%82%E0%A4%B9,%20%E0%A4%B5%E0%A4%B0%E0%A4%BF%E0%A4%B7%E0%A5%8D%E0%A4%A0%20%E0%A4%96%E0%A5%87%E0%A4%B2%20%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%95%E0%A4%BE%E0%A4%B0 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/blog/asia-cup-2018-every-team-has-special-preparation-for-spinners-965765 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/authors/%E0%A4%B6%E0%A4%BF%E0%A4%B5%E0%A5%87%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A5%8D%E0%A4%B0%20%E0%A4%95%E0%A5%81%E0%A4%AE%E0%A4%BE%E0%A4%B0%20%E0%A4%B8%E0%A4%BF%E0%A4%82%E0%A4%B9,%20%E0%A4%B5%E0%A4%B0%E0%A4%BF%E0%A4%B7%E0%A5%8D%E0%A4%A0%20%E0%A4%96%E0%A5%87%E0%A4%B2%20%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%95%E0%A4%BE%E0%A4%B0 - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/blog - OK</span>
+                <span class="reporter-method-output">https://www.wahcricket.com/?utm_source=homepage&utm_campaign=banner&utm_medium=abpnews - OK</span>
+                <span class="reporter-method-output">http://coupons.abplive.in/spencers-coupons/?utm_source=abpnews - OK</span>
+                <span class="reporter-method-output">http://coupons.abplive.in/tata-cliq-coupons/?utm_source=abpnews - OK</span>
+                <span class="reporter-method-output">http://coupons.abplive.in/medlife-coupons/?utm_source=abpnews - OK</span>
+                <span class="reporter-method-output">http://coupons.abplive.in/jbl-coupons/?utm_source=abpnews - OK</span>
+                <span class="reporter-method-output">http://coupons.abplive.in/flipkart-coupons/?utm_source=abpnews - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/live-tv - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/india-news - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/sports - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/crime - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/lifestyle - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/uttar-pradesh - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/food - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/vyakti-vishesh - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/videos - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/india-news - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/bollywood - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/business - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/viral-sach - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/auto-news - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/ajab-gazab - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/aap-ki-baat - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/photo-gallery - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/world-news - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/television - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/gadgets - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/health-news - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/education-news - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/graphics - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/jobs - OK</span>
+                <span class="reporter-method-output">https://facebook.com/abpnews - OK</span>
+                <span class="reporter-method-output">https://twitter.com/abpnewshindi - OK</span>
+                <span class="reporter-method-output">https://youtube.com/abpnewstv - OK</span>
+                <span class="reporter-method-output">https://plus.google.com/+abpnews - OK</span>
+                <span class="reporter-method-output">https://itunes.apple.com/in/app/abp-live-abp-news-abp-ananda/id811114904?mt=8# - OK</span>
+                <span class="reporter-method-output">https://play.google.com/store/apps/details?id=com.winit.starnews.hin - OK</span>
+                <span class="reporter-method-output">https://www.windowsphone.com/en-in/store/app/abp-live/403b7ec9-c937-4839-9d39-2b3e1659b43c - OK</span>
+                <span class="reporter-method-output">https://itunes.apple.com/in/app/wah-cricket-latest-news/id1086964003?mt=8 - OK</span>
+                <span class="reporter-method-output">https://play.google.com/store/apps/details?id=com.si.abp&hl=en - OK</span>
+                <span class="reporter-method-output">https://www.abpnewsnetwork.com/ - OK</span>
+                <span class="reporter-method-output">https://www.abplive.in/ - OK</span>
+                <span class="reporter-method-output">https://abpananda.abplive.in/ - OK</span>
+                <span class="reporter-method-output">https://abpsanjha.abplive.in/ - OK</span>
+                <span class="reporter-method-output">https://www.wahcricket.com/ - OK</span>
+                <span class="reporter-method-output">https://abpmajha.abplive.in/ - OK</span>
+                <span class="reporter-method-output">https://abpasmita.abplive.in/ - OK</span>
+                <span class="reporter-method-output">https://www.wahcricket.com/en - OK</span>
+                <span class="reporter-method-output">https://www.abpnewsnetwork.com/about-us.html - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/feedback - OK</span>
+                <span class="reporter-method-output">https://www.abpnewsnetwork.com/careers.html - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/advertisement - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/sitemap - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/disclaimer - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/contact-us - OK</span>
+                <span class="reporter-method-output">https://abpnews.abplive.in/privacy-policy - OK</span>
+                <span class="reporter-method-output"><=================All Links Verified======================></span>
+                <span class="reporter-method-output">****************verifySocialLinks Method is Executing*****************</span>
+                <span class="reporter-method-output">parent Window is---------->CDwindow-80942E9D0FDBD559CE27EDC1047E04C8</span>
+                <span class="reporter-method-output"><=========== Clicked on RSS Button============></span>
+                <span class="reporter-method-output">total window  4</span>
+                <span class="reporter-method-output">***************Child Window Title is  ABP News RSS FEEDS, Section Wise - ABP News</span>
+                <span class="reporter-method-output">***************Child Window Title is  ABP NEWS - YouTube</span>
+                <span class="reporter-method-output">***************Child Window Title is  ABP न्यूज़ हिंदी (@abpnewshindi) on Twitter</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Default_suite" class="panel">
+        <div panel-name="ignored-methods-Main_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Default_suite" class="panel">
+        <div panel-name="chronological-Main_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
@@ -231,16 +751,63 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.abp_news.scripts.hometest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">preCondition</span>
+                <span class="method-name">preCondition(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">preCondition(firefox)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">hindihomepageVerify</span>
-                <span class="method-start">9419 ms</span>
+                <span class="method-name">homePageImageVerify</span>
+                <span class="method-start">40146 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">homePageImageVerify</span>
+                <span class="method-start">83669 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">postCondition</span>
-                <span class="method-start">16805 ms</span>
+                <span class="method-start">99466 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.abp_news.scripts.HindiHomeTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">preCondition(chrome)</span>
+                <span class="method-start">99570 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">image</span>
+                <span class="method-start">107550 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.abp_news.scripts.hometest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">postCondition</span>
+                <span class="method-start">222696 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.abp_news.scripts.HindiHomeTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">preCondition(firefox)</span>
+                <span class="method-start">228052 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">image</span>
+                <span class="method-start">251587 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">postCondition</span>
+                <span class="method-start">258824 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">postCondition</span>
+                <span class="method-start">499427 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

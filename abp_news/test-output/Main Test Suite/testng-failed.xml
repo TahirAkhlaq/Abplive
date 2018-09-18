@@ -7,14 +7,13 @@
   <test thread-count="2" name="FirefoxTestCases(failed)" parallel="tests">
     <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="com.abp_news.scripts.hometest">
+      <class name="com.abp_news.scripts.HindiHomeTest">
         <methods>
-          <include name="socialSiteLinkDirectionVerification"/>
+          <include name="image"/>
           <include name="preCondition"/>
           <include name="postCondition"/>
-          <include name="homepageSectionVerificationMobileWindow"/>
         </methods>
-      </class> <!-- com.abp_news.scripts.hometest -->
+      </class> <!-- com.abp_news.scripts.HindiHomeTest -->
     </classes>
   </test> <!-- FirefoxTestCases(failed) -->
 </suite> <!-- Failed suite [Main Test Suite] -->
